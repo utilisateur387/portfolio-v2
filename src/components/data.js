@@ -21,25 +21,32 @@ const data = [
       "id": 3
     },
     {
+      "title": "Motion Motion",
+      "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+      "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+      "tags": ["installation", "arduino"],
+      "id": 4
+    },
+    {
       "title": "Facebook Gaming",
       "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
       "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
       "tags": ["design", "3D"],
-      "id": 4
+      "id": 5
     },
     {
       "title": "Dreamscape",
       "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
       "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
       "tags": ["UX", "design"],
-      "id": 5
+      "id": 6
     },
     {
       "title": "Space Choir",
       "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
       "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
       "tags": ["installation", "arduino"],
-      "id": 6
+      "id": 7
     }
   ]
 

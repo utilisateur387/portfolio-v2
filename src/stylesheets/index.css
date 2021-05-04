@@ -1,6 +1,7 @@
 @import "./components/about";
-@import "./components/navbar";
 @import "./components/card";
+@import "./components/filters";
+@import "./components/navbar";
 @import "./config/fonts";
 
 body {
@@ -65,8 +66,9 @@ a {
 hr {
   border-top: solid 1px white;
   border-bottom: none;
+  margin-bottom: 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 780px) {
   .project-list {
     grid-template-columns: 1fr;
     transition: 1s ease;

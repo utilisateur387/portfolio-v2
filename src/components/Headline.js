@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
+import useAnchor from './useAnchor';
 
 const Headline = () => {
-  const anchor = document.getElementById('else');
-  console.log(anchor);
+  const anchor = useAnchor();
   const handleClick = (e) => {
     e.preventDefault();
     anchor.scrollIntoView({behavior: 'smooth'});
