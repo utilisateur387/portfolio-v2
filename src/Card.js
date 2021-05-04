@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Card = ({ project }) => {
   const coverUrl = `images/${project.title
     .toLowerCase()
@@ -6,12 +8,14 @@ const Card = ({ project }) => {
   }/cover_image.png`;
 
   return (
-    <div className="card">
-      {project.title}
-      <div className="img-container">
-        <img src={coverUrl} alt="" />
+    <Link to={`/${project.id}`}>
+      <div className="card">
+        {project.title}
+        <div className="img-container">
+          <img src={coverUrl} alt="" />
+        </div>
       </div>
-    </div>
+    </Link>
   )
 }
 

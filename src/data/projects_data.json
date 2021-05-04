@@ -1,4 +1,5 @@
-const data = [
+{
+  "projectsData": [
     {
       "title": "Curators",
       "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
@@ -42,5 +43,5 @@ const data = [
       "id": 6
     }
   ]
+}
 
-export { data };

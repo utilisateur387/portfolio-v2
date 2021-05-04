@@ -1,16 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './Home';
-import Filters from './Filters';
-import Projects from './Projects';
+import ProjectDetails from './ProjectDetails';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <Filters />
-      <Projects />
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+
+          <Route path="/:id">
+            <ProjectDetails />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

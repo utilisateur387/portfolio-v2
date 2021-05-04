@@ -45,9 +45,9 @@ a {
   padding: 0px;
 }
 
-.img-container img {
-  object-fit: cover;
-  object-position: center;
+.img-container > img {
+  margin-bottom: -4px; /* TEMPORARY, NEEDS TO BE FIXED */
   width: 100%;
+  max-height: 100%;
 }
 
