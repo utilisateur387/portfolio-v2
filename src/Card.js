@@ -1,8 +1,16 @@
 const Card = ({ project }) => {
-  console.log(project);
+  const coverUrl = `images/${project.title
+    .toLowerCase()
+    .replaceAll(' ', '_')
+    .replaceAll('.', '')
+  }/cover_image.png`;
+
   return (
-    <div>
+    <div className="card">
       {project.title}
+      <div className="img-container">
+        <img src={coverUrl} alt="" />
+      </div>
     </div>
   )
 }

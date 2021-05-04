@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: black;
   color: white;
+  padding: 16px;
 }
 
 .headline {
@@ -31,3 +32,22 @@ a {
 .links a {
   margin: 0 16px;
 }
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.img-container {
+  border-radius: 4px;
+  overflow: hidden;
+  background: red;
+  padding: 0px;
+}
+
+.img-container img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+

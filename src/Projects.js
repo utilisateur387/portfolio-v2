@@ -2,11 +2,8 @@ import Card from './Card';
 import { data } from './data'
 
 const Projects = () => {
-  // console.log(data[0]);
-
   return (
-    <div>
-      Projects
+    <div className='project-list'>
       { data.map(project => {
         return <Card project={project} />
       })}
