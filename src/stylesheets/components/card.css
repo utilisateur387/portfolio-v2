@@ -11,11 +11,10 @@
   margin-bottom: 12px;
 }
 .tag {
-  opacity: 0.85;
   font-size: 12px;
   text-transform: uppercase;
   border: solid 1px white;
-  padding: 1px 6px 3px 6px ;
+  padding: 3px 6px;
   margin-left: 4px;
   border-radius: 16px;
 }
