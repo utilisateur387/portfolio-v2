@@ -1,6 +1,9 @@
-const Card = () => {
+const Card = ({ project }) => {
+  console.log(project);
   return (
-    <div>Card</div>
+    <div>
+      {project.title}
+    </div>
   )
 }
 
