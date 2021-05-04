@@ -1,3 +1,6 @@
+@import "./navbar";
+@import "./card";
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -37,7 +40,6 @@ a {
   color: white;
   text-decoration: none;
 }
-
 .links a {
   margin: 0 16px;
 }
@@ -48,64 +50,26 @@ a {
   text-align: left;
     transition: 1s ease;
 }
-
 .img-container {
   border-radius: 4px;
   overflow: hidden;
   padding: 0px;
 }
-
 .img-container > img {
   margin-bottom: -4px; /* TEMPORARY, NEEDS TO BE FIXED */
   width: 100%;
   max-height: 100%;
 }
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 16px 24px;
-  text-align: right;
-  /*background: black;*/
-}
-.navbar a {
-  margin-left: 16px;
-}
 hr {
   border-top: solid 1px white;
   border-bottom: none;
 }
-
 @media screen and (max-width: 700px) {
   .project-list {
     grid-template-columns: 1fr;
     transition: 1s ease;
   }
 }
-
-.card {
-  margin-bottom: 16px;
-}
-.card-top-infos {
-  display: flex;
-  justify-content: space-between;
-}
-.card p {
-  display: inline;
-  margin: 0;
-  margin-bottom: 12px;
-}
-.tag {
-  opacity: 0.85;
-  font-size: 12px;
-  text-transform: uppercase;
-  border: solid 1px white;
-  padding: 1px 6px 3px 6px ;
-  margin-left: 4px;
-  border-radius: 16px;
-}
-
-
 .project-details {
   padding-top: 48px;
 }

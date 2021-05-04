@@ -1,0 +1,28 @@
+.card {
+  margin-bottom: 16px;
+}
+.card-top-infos {
+  display: flex;
+  justify-content: space-between;
+}
+.card p {
+  display: inline;
+  margin: 0;
+  margin-bottom: 12px;
+}
+.tag {
+  opacity: 0.85;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: solid 1px white;
+  padding: 1px 6px 3px 6px ;
+  margin-left: 4px;
+  border-radius: 16px;
+}
+.card img {
+  transition: transform ease-out 0.4s;
+}
+.card img:hover {
+  transform: scale(1.025);
+  transition: transform ease-out 0.4s;
+}
