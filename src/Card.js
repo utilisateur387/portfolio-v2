@@ -10,7 +10,10 @@ const Card = ({ project }) => {
   return (
     <Link to={`/${project.id}`}>
       <div className="card">
-        {project.title}
+        <div className="card-top-infos">
+          <p>{project.title}</p>
+          <p>{project.tags}</p>
+        </div>
         <div className="img-container">
           <img src={coverUrl} alt="" />
         </div>

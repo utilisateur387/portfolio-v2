@@ -78,3 +78,10 @@ hr {
 .card {
   margin-bottom: 16px;
 }
+.card-top-infos {
+  display: flex;
+  justify-content: space-between;
+}
+.card p {
+  display: inline;
+}
