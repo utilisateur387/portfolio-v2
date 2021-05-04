@@ -38,12 +38,12 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
   text-align: left;
+    transition: 1s ease;
 }
 
 .img-container {
   border-radius: 4px;
   overflow: hidden;
-  background: red;
   padding: 0px;
 }
 
@@ -66,4 +66,15 @@ a {
 hr {
   border-top: solid 1px white;
   border-bottom: none;
+}
+
+@media screen and (max-width: 700px) {
+  .project-list {
+    grid-template-columns: 1fr;
+    transition: 1s ease;
+  }
+}
+
+.card {
+  margin-bottom: 16px;
 }
