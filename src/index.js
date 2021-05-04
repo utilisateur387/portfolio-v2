@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './stylesheets/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/AllianceNo2-Light.ttf';
 
 ReactDOM.render(
   <React.StrictMode>
