@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Headline/>
-      <Filters id="#filters" />
+      <Filters />
       <Projects />
     </>
   )

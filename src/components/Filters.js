@@ -1,6 +1,6 @@
 const Filters = () => {
   return (
-    <div>
+    <div id="filters" >
       <hr/>
     </div>
   )
