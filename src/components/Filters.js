@@ -12,11 +12,15 @@ const Filters = () => {
   };
 
   return (
-    <div id="filters" style={{ paddingTop: 4}}>
-      <p onClick={handleClick}>
-        {filters.map(filter => <span className="tags-clickable">{filter}</span>)}
-      </p>
-      <hr/>
+    <div id="filters" className='filters' style={{ paddingTop: 4}}>
+      {/*<p style={{ marginBottom: 12}}>Filter projects</p>*/}
+      <div
+        onClick={handleClick}
+        style={{ marginBottom: 64}}
+        >
+        {filters.map(filter => <p className="tags-clickable">{filter}</p>)}
+        {/*<hr />*/}
+      </div>
     </div>
   )
 }

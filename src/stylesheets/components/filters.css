@@ -1,6 +1,16 @@
+.filters {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  padding-top: 10px;
+  z-index: 100;
+}
 .tags-clickable {
   border: solid 1px white;
-  margin-right: 6px;
-  padding: 6px 10px;
+  margin: 4px 4px 8px 0;
+  padding: 4px 8px 4px 8px;
   border-radius: 18px;
+  font-size: 1em;
+  text-transform: capitalize;
+  display: inline-block;
 }
