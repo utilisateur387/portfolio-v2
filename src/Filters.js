@@ -1,6 +1,9 @@
 const Filters = () => {
   return (
-    <div>Filters</div>
+    <div>
+      Filters
+      <hr/>
+    </div>
   )
 }
 
