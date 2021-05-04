@@ -12,7 +12,9 @@ const Card = ({ project }) => {
       <div className="card">
         <div className="card-top-infos">
           <p>{project.title}</p>
-          <p>{project.tags}</p>
+          <p>
+            {project.tags.map(tag => <span className="tag">{tag}</span>)}
+          </p>
         </div>
         <div className="img-container">
           <img src={coverUrl} alt="" />
