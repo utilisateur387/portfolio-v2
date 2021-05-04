@@ -1,14 +1,19 @@
 import { useParams } from 'react-router-dom';
 import { data } from './data'
-// import projectsData from './data/projects_data';
 
 const ProjectDetails = () => {
   const {id} = useParams();
   const project = data.find(project => project.id == id);
+  const coverUrl = `images/${project.title
+    .toLowerCase()
+    .replaceAll(' ', '_')
+    .replaceAll('.', '')
+  }/cover_image.png`;
 
   return (
-    <div>
-      {project.title}
+    <div className="project-details">
+      <img src={coverUrl} alt="" />
+      <h1>{project.title}</h1>
     </div>
   )
 }

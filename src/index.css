@@ -16,15 +16,23 @@ body {
   text-align: center;
   justify-content: center;
   margin: 0 auto;
-  width: 270px;
+  max-width: 370px;
 }
 .App {
-  padding: 16px;
+  padding: 24px;
+  padding-top: 0;
 }
 .uppercase {
   text-transform: uppercase;
 }
-
+.headlines {
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+img {
+  width: 100%;
+  border-radius: 4px;
+}
 a {
   color: white;
   text-decoration: none;
@@ -36,7 +44,7 @@ a {
 .project-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 16px;
+  grid-gap: 24px;
   text-align: left;
     transition: 1s ease;
 }
@@ -56,12 +64,12 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 16px 0;
-  background: black;
-  text-align: center;
+  padding: 16px 24px;
+  text-align: right;
+  /*background: black;*/
 }
 .navbar a {
-  margin: 0 16px;
+  margin-left: 16px;
 }
 hr {
   border-top: solid 1px white;
@@ -84,11 +92,20 @@ hr {
 }
 .card p {
   display: inline;
+  margin: 0;
+  margin-bottom: 12px;
 }
 .tag {
+  opacity: 0.85;
+  font-size: 12px;
   text-transform: uppercase;
   border: solid 1px white;
-  padding: 2px 8px 4px 8px ;
+  padding: 1px 6px 3px 6px ;
   margin-left: 4px;
   border-radius: 16px;
+}
+
+
+.project-details {
+  padding-top: 48px;
 }

@@ -1,7 +1,7 @@
 const Headline = () => {
   return (
     <div className="headline">
-      <p className="uppercase">
+      <p className="headlines">
         Hi, I’m Miebi, a web developer and digital designer currently based in France
       </p>
 {/*      <div className="links">

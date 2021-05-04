@@ -8,19 +8,19 @@ const Card = ({ project }) => {
   }/cover_image.png`;
 
   return (
-    <Link to={`/${project.id}`}>
-      <div className="card">
-        <div className="card-top-infos">
-          <p>{project.title}</p>
-          <p>
-            {project.tags.map(tag => <span className="tag">{tag}</span>)}
-          </p>
-        </div>
+    <div className="card">
+      <div className="card-top-infos">
+        <p className="uppercase">{project.title}</p>
+        <p>
+          {project.tags.map(tag => <span className="tag">{tag}</span>)}
+        </p>
+      </div>
+      <Link to={`/${project.id}`}>
         <div className="img-container">
           <img src={coverUrl} alt="" />
         </div>
-      </div>
-    </Link>
+      </Link>
+    </div>
   )
 }
 
