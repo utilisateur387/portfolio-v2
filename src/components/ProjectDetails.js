@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
-import { data } from './data'
+import data from "../data/projects_data.json";
 
 const ProjectDetails = () => {
   const {id} = useParams();
@@ -14,7 +14,7 @@ const ProjectDetails = () => {
   const history = useHistory();
   const handleBack = () => {
     // history.go(-1);
-    history.push('/');
+    history.push('/#filters');
   }
 
   return (
