@@ -53,16 +53,6 @@ a {
   text-align: left;
     transition: 1s ease;
 }
-.img-container {
-  border-radius: 4px;
-  overflow: hidden;
-  padding: 0px;
-}
-.img-container > img {
-  margin-bottom: -4px; /* TEMPORARY, NEEDS TO BE FIXED */
-  width: 100%;
-  max-height: 100%;
-}
 hr {
   border-top: solid 1px white;
   border-bottom: none;
