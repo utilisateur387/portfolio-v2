@@ -1,4 +1,4 @@
-.filters {
+/*.filters {
   background-color: blue;
   position: fixed;
   top: 0;
@@ -7,7 +7,7 @@
   height: auto;
   padding: 60px 24px 8px 24px;
   z-index: 100;
-}
+}*/
 .tags-clickable {
   border: solid 1px white;
   margin: 4px 4px 8px 0;

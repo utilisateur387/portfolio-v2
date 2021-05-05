@@ -3,12 +3,9 @@ import Tags from './Tags';
 import { useState } from 'react';
 
 const Filters = () => {
-  const [tagsAreVisible, setTagsAreVisible] = useState(false);
-
   return (
-    <div id="filters" className='filters'>
+    <div id="filters">
       <FilterButton />
-      <Tags style={{ display: 'none'}} />
     </div>
   )
 }
