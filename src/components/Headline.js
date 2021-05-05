@@ -14,8 +14,8 @@ const Headline = () => {
         Hi, I’m Miebi, a web developer and digital designer currently based in France
       </p>
       <div className="links">
-        <a href="#filters" onClick={handleClick}>Work</a>
-        <Link to="/about">About Me</Link>
+        <a href="#projects" onClick={handleClick}>Work</a>
+        <Link to="/about">About</Link>
       </div>
     </div>
   )

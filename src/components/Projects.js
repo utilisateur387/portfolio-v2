@@ -3,7 +3,7 @@ import data from "../data/projects_data.json";
 
 const Projects = () => {
   return (
-    <div className='project-list'>
+    <div id="projects" className='project-list'>
       { data.map(project => {
         return <Card project={project} />
       })}

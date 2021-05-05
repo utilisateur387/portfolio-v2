@@ -1,12 +1,12 @@
 import Projects from './Projects';
-import Filters from './Filters';
+import FilterButton from './FilterButton';
 import Headline from './Headline';
 
 const Home = () => {
   return (
     <>
       <Headline/>
-      <Filters />
+      <FilterButton />
       <Projects />
     </>
   )

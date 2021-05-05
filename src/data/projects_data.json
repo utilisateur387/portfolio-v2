@@ -24,14 +24,14 @@
     "title": "Motion Motion",
     "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
     "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "tags": ["installation", "arduino"],
+    "tags": ["installation", "arduino", "VJ"],
     "id": 4
   },
   {
     "title": "Facebook Gaming",
     "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
     "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "tags": ["design", "3D"],
+    "tags": ["design", "3D", "motion"],
     "id": 5
   },
   {
@@ -52,14 +52,14 @@
     "title": "WS",
     "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
     "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "tags": ["UX", "design"],
+    "tags": ["3D", "motion"],
     "id": 8
   },
   {
     "title": "Uncharted Territories",
     "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
     "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "tags": ["installation", "arduino"],
+    "tags": ["mapping", "video"],
     "id": 9
   },
   {

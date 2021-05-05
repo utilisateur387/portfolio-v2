@@ -51,7 +51,8 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-gap: 24px;
   text-align: left;
-    transition: 1s ease;
+  transition: 1s ease;
+  padding-top: 64px;
 }
 hr {
   border-top: solid 1px white;
