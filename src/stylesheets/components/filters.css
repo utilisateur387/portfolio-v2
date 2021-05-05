@@ -1,8 +1,11 @@
 .filters {
-  background-color: black;
-  position: sticky;
+  background-color: blue;
+  position: fixed;
   top: 0;
-  padding-top: 10px;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  padding: 60px 24px 8px 24px;
   z-index: 100;
 }
 .tags-clickable {
@@ -13,4 +16,15 @@
   font-size: 1em;
   text-transform: capitalize;
   display: inline-block;
+}
+.filter-button {
+  position: fixed;
+  top: 16px;
+  left: 24px;
+  z-index: 200;
+  background: blue;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 10px;
+  /*text-transform: uppercase;*/
 }
