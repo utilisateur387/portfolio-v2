@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import { data } from './data'
 
 const ProjectDetails = () => {
@@ -10,9 +11,16 @@ const ProjectDetails = () => {
     .replaceAll('.', '')
   }/cover_image.png`;
 
+  const history = useHistory();
+  const handleBack = () => {
+    // history.go(-1);
+    history.push('/');
+  }
+
   return (
     <div className="project-details">
       <img src={coverUrl} alt="" />
+      <button onClick={handleBack}>Back</button>
       <h1>{project.title}</h1>
     </div>
   )
