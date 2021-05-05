@@ -1,6 +1,7 @@
 @import "./components/about";
 @import "./components/card";
 @import "./components/filters";
+@import "./components/headline";
 @import "./components/navbar";
 @import "./config/fonts";
 
@@ -13,16 +14,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: black;
   color: white;
-}
-.headline {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  margin: 0 auto;
-  max-width: 370px;
 }
 .App {
   padding: 24px;
@@ -43,16 +34,13 @@ a {
   color: white;
   text-decoration: none;
 }
-.links a {
-  margin: 0 16px;
-}
 .project-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 24px;
   text-align: left;
   transition: 1s ease;
-  padding-top: 64px;
+  padding-top: 80px;
 }
 hr {
   border-top: solid 1px white;
