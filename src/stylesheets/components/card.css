@@ -1,5 +1,6 @@
 .card {
   margin-bottom: 16px;
+  font-size: 1.20em;
 }
 .card-top-infos {
   display: flex;
@@ -11,10 +12,10 @@
   margin-bottom: 12px;
 }
 .tag {
-  font-size: 12px;
+  font-size: 13px;
   text-transform: uppercase;
   border: solid 1px white;
-  padding: 4px 7px;
+  padding: 7px 8px 5px 8px;
   margin-left: 4px;
   border-radius: 16px;
 }
