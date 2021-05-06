@@ -5,8 +5,6 @@ import { motion } from 'framer-motion';
 import InfoButton from './InfoButton';
 
 const NavButtons = ({ active }) => {
-  // console.log(active);
-
   return (
     <motion.div
       id="filters"
