@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 
 const Card = ({ project }) => {
   const coverUrl = `images/${project.title
@@ -7,8 +9,15 @@ const Card = ({ project }) => {
     .replaceAll('.', '')
   }/cover_image.png`;
 
+  const [ref, inView] = useInView({
+    threshold: 0,
+  })
+  console.log(inView);
+
+  const [opacity, setOpacity] = useState(0);
+
   return (
-    <div className="card">
+    <div className="card" ref={ref}>
       <div className="card-top-infos">
         <p className="uppercase">{project.title}</p>
         <p>
@@ -16,7 +25,9 @@ const Card = ({ project }) => {
         </p>
       </div>
       <Link to={`/${project.id}`}>
-        <div className="img-container">
+        <div
+          className="img-container"
+          style={{ opacity: inView ? 1 : 0, transition: '1s', transitionDelay: '150ms'}}>
           <img src={coverUrl} alt="" />
         </div>
       </Link>

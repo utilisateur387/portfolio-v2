@@ -22,10 +22,6 @@ body {
 .uppercase {
   text-transform: uppercase;
 }
-.headlines {
-  text-transform: uppercase;
-  font-size: 1.6em;
-}
 img {
   width: 100%;
   border-radius: 4px;
