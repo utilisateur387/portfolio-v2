@@ -1,16 +1,1 @@
-.about {
-  padding-top: 32px;
-  font-size: 2em;
-}
-.info-button {
-  position: fixed;
-  top: 16px;
-  left: 103px;
-  z-index: 100;
-  background: blue;
-  color: white;
-  padding: 8px 12px;
-  border-radius: 10px;
-  max-width: calc(100vw - 72px);
-}
 

@@ -8,6 +8,13 @@
   padding: 60px 24px 8px 24px;
   z-index: 100;
 }*/
+.tag-list {
+  margin: 16px;
+}
+.filter-title {
+  margin: 16px;
+  line-height: 35px;
+}
 .tags-clickable {
   border: solid 1px white;
   margin: 4px 4px 4px 0;
@@ -18,10 +25,26 @@
   display: inline-block;
 }
 .filter-button {
+  background: blue;
+  margin-right: 8px;
+  z-index: 200;
+  color: white;
+  border-radius: 10px;
+  max-width: calc(100vw - 72px);
+}
+
+.nav-buttons {
+  display: flex;
   position: fixed;
   top: 16px;
   left: 24px;
-  z-index: 200;
+  z-index: 300;
+}
+.about {
+  padding-top: 32px;
+  font-size: 2em;
+}
+.info-button {
   background: blue;
   color: white;
   padding: 8px 12px;
