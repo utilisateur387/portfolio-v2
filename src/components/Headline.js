@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import useAnchor from './useAnchor';
 import { motion } from 'framer-motion';
 
