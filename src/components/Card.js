@@ -12,9 +12,6 @@ const Card = ({ project }) => {
   const [ref, inView] = useInView({
     threshold: 0,
   })
-  console.log(inView);
-
-  const [opacity, setOpacity] = useState(0);
 
   return (
     <div className="card" ref={ref}>

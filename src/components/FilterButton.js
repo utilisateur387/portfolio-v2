@@ -10,9 +10,11 @@ const FilterButton = () => {
     // setTagsDisplay(tagsDisplay == 'none' ? 'block' : 'none')
     setIsExpanded(isExpanded === true ? false : true)
   };
+
   useEffect(() => {
     setTagsDisplay('block')
   }, [])
+
 
   return (
     <>

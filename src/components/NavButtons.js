@@ -1,19 +1,20 @@
 import FilterButton from './FilterButton';
 import Tags from './Tags';
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 import InfoButton from './InfoButton';
 
-const NavButtons = () => {
-  const [isActive, setIsActive] = useState(true);
-  const handleClick = () => {
-
-  }
+const NavButtons = ({ active }) => {
+  // console.log(active);
 
   return (
-    <div id="filters" className="nav-buttons" >
+    <motion.div
+      id="filters"
+      className="nav-buttons"
+      style={{ opacity: active ? 1 : 0}} >
       <FilterButton />
-      <InfoButton isActive={isActive} />
-    </div>
+      <InfoButton />
+    </motion.div>
   )
 }
 

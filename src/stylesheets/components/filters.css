@@ -25,19 +25,18 @@
   display: inline-block;
 }
 .filter-button {
+  position: fixed;
+  top: 16px;
+  left: 24px;
   background: blue;
   margin-right: 8px;
   z-index: 200;
   color: white;
   border-radius: 10px;
-  max-width: calc(100vw - 72px);
+  max-width: calc(100vw - 48px);
+  display: inline-block;
 }
-
 .nav-buttons {
-  display: flex;
-  position: fixed;
-  top: 16px;
-  left: 24px;
   z-index: 300;
 }
 .about {
@@ -45,9 +44,15 @@
   font-size: 2em;
 }
 .info-button {
+  z-index: 300;
+  position: fixed;
+  top: 16px;
+  left: 116px;
+  display: inline-block;
   background: blue;
   color: white;
   padding: 8px 12px;
   border-radius: 10px;
   max-width: calc(100vw - 72px);
+  white-space: nowrap;
 }

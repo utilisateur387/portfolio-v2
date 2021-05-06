@@ -1,8 +1,7 @@
-const InfoButton = ({ isActive }) => {
+const InfoButton = () => {
   return (
     <div
-      className="info-button"
-      style={{ display: isActive ? 'block' : 'none' }}>
+      className="info-button">
       About me
     </div>
   )
