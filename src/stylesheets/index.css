@@ -6,13 +6,13 @@
 @import "./config/fonts";
 
 body {
+  background: black;
   margin: 0;
   font-family: 'Alliance No.2', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: black;
   color: white;
 }
 .App {

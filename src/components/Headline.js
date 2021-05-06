@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import useAnchor from './useAnchor';
+import { motion } from 'framer-motion';
 
 const Headline = () => {
   const anchor = useAnchor();
@@ -9,7 +10,11 @@ const Headline = () => {
   };
 
   return (
-    <div className="headline">
+    <motion.div
+      className="headline"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}>
       <p className="headlines">
         Hi, I’m Miebi, a web developer and digital designer currently based in France
       </p>
@@ -23,7 +28,7 @@ const Headline = () => {
        Work</a>
         <Link to="/about">About</Link>
         </div> */}
-    </div>
+    </motion.div>
   )
 }
 
