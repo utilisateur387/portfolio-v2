@@ -3,6 +3,7 @@ import { useHistory } from 'react-router-dom';
 import data from "../data/projects_data.json";
 
 const ProjectDetails = () => {
+  console.log(data);
   const {id} = useParams();
   const project = data.find(project => project.id == id);
   const coverUrl = `images/${project.title
