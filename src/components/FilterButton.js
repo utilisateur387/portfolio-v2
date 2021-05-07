@@ -28,7 +28,12 @@ const FilterButton = ({ tags, toggleFilters, tagCount }) => {
         >
         <span className="filter-title" onClick={handleClick}>Filters ({tagCount})</span>
         <div style={{ width: '90vw' }}>
-          <img class="img-cross-block" src="images/general/cross.png" alt="" />
+          <img
+            src="images/general/cross.png" alt=""
+            onClick={handleClick}
+            class="img-cross-block"
+            style={{ display: isExpanded ? 'block' : 'none' }}
+            />
           <Tags tagsDisplay={tagsDisplay} tags={tags} toggleFilters={toggleFilters} />
         </div>
       </motion.div>
