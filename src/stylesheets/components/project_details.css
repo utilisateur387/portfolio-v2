@@ -10,7 +10,6 @@
 }
 .categories {
   min-width: 0;
-  overflow: hidden;
 }
 .description {
 
@@ -25,8 +24,9 @@
   margin-left: 0;
   margin-right: 4px;
 }
-.categories-tags {
-  overflow: hidden;
+.container-categories-tags {
+  margin-bottom: 14px;;
+  line-height: 2em;
 }
 @media screen and (max-width: 780px) {
   .project-cover-img {
