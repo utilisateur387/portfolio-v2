@@ -5,7 +5,7 @@ import data from "../data/projects_data.json";
 
 const ProjectDetails = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0) // Scroll to top to prevent landing at the bottom
   }, []);
 
   const {id} = useParams();
@@ -18,8 +18,8 @@ const ProjectDetails = () => {
 
   const history = useHistory();
   const handleBack = () => {
-    // history.go(-1);
-    history.push('/#filters');
+    history.go(-1);
+    // history.push('/#filters');
   }
 
   return (
@@ -38,6 +38,18 @@ const ProjectDetails = () => {
           </span>
         </p>
         <img src={coverUrl} alt="Project cover" className='project-cover-img' />
+        <div className="project-infos">
+          <div className="categories">
+            Hello
+          </div>
+          <div className="description">
+            {project.full_description}
+          </div>
+          <div></div>
+          <div className="credits">
+            Hello
+          </div>
+        </div>
       </div>
     </>
   )
