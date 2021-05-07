@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 
 const Card = ({ project }) => {
@@ -18,7 +17,7 @@ const Card = ({ project }) => {
       <div className="card-top-infos">
         <p className="uppercase">{project.title}</p>
         <p>
-          {project.tags.map(tag => <span className="tag">{tag}</span>)}
+          {project.tags.map(tag => <span className="tag" key={tag}>{tag}</span>)}
         </p>
       </div>
       <Link to={`/${project.id}`}>

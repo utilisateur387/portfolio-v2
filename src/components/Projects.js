@@ -8,14 +8,14 @@ const Projects = ({ showNavButtons }) => {
     threshold: 0,
   })
   // console.log(inView);
-  if (inView) showNavButtons();
+  // if (inView) showNavButtons();
 
   return (
     <>
       <div ref={ref}></div>
       <div id="projects" className='project-list'>
         { data.map(project => {
-          return <Card project={project} />
+          return <Card project={project} key={project.id} />
         })}
       </div>
     </>

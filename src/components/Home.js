@@ -14,24 +14,29 @@ const Home = () => {
   // Hide nav buttons on landing
   const [refPoint, setRefPoint] = useState(false);
 
-  const showNavButtons = () => {
-    setRefPoint(true);
-    console.log(refPoint);
-  };
+  // const showNavButtons = () => {
+  //   setRefPoint(true);
+  //   console.log(refPoint);
+  // };
 
   // Filter projects with tags
   const [activeFilters, setActiveFilters] = useState([]);
 
-  const toggleFilters = (e) => {
-    console.log(e);
-    // setActiveFilters([...activeFilters, e.target.value])
+  const toggleFilters = (tag) => {
+    if (activeFilters.includes(tag)) {
+      console.log('already here!')
+      setActiveFilters(activeFilters.filter(current => current !== tag))
+    } else {
+      setActiveFilters([...activeFilters, tag])
+    }
   }
+  console.log(activeFilters);
 
   return (
     <>
       <Headline/>
       <NavButtons active={refPoint} tags={tags} toggleFilters={toggleFilters} />
-      <Projects showNavButtons={showNavButtons} />
+      <Projects />
     </>
   )
 }

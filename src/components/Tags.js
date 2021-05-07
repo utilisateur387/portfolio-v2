@@ -13,8 +13,8 @@ const Tags = ({ tags, tagsDisplay, toggleFilters }) => {
   };
 
   const handleFilter = (e) => {
-    console.log(e.target.value);
-    // toggleFilters();
+    // console.log(e.target.value);
+    toggleFilters(e.target.value);
   }
 
   return (
