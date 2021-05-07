@@ -12,12 +12,14 @@ const Tags = ({ tags, tagsDisplay, toggleFilters }) => {
   };
 
   const handleFilter = (e) => {
-    toggleFilters(e.target.value);
+    console.log(e.currentTarget);
 
-    const cross = e.target.querySelector('.cross');
+    toggleFilters(e.currentTarget.value);
+
+    const cross = e.currentTarget.querySelector('.cross');
     cross.classList.toggle('cross-active');
 
-    e.target.classList.toggle('tag-active');
+    e.currentTarget.classList.toggle('tag-active');
   }
 
   return (
@@ -33,10 +35,8 @@ const Tags = ({ tags, tagsDisplay, toggleFilters }) => {
           value={tag}
           key={tag}
           onClick={handleFilter}>
-
           {tag }
           <span className="cross" > x</span>
-          {/*{ isActive && <span className="cross"> x</span>}*/}
         </button>)}
     </div>
   )
