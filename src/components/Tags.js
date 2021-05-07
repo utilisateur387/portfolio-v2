@@ -35,7 +35,9 @@ const Tags = ({ tags, tagsDisplay, toggleFilters }) => {
           key={tag}
           onClick={handleFilter}>
           {tag }
-          <span className="cross" > x</span>
+          <span className="cross" >
+            <img class="img-cross" src="images/general/cross_blue.png" alt="" />
+          </span>
         </button>)}
     </div>
   )
