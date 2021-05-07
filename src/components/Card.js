@@ -16,9 +16,9 @@ const Card = ({ project }) => {
     <div className="card" ref={ref}>
       <div className="card-top-infos">
         <p className="uppercase">{project.title}</p>
-        <p>
+        <div className="tags-container">
           {project.tags.map(tag => <span className="tag" key={tag}>{tag}</span>)}
-        </p>
+        </div>
       </div>
       <Link to={`/${project.id}`}>
         <div
