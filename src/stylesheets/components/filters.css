@@ -6,6 +6,8 @@
   line-height: 35px;
 }
 .tags-clickable {
+  background: rgba(0,0,0,0);
+  color: white;
   border: solid 1px white;
   margin: 4px 4px 4px 0;
   padding: 7px 14px;
