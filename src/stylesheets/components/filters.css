@@ -19,7 +19,7 @@
 }
 .filter-button {
   position: fixed;
-  top: 16px;
+  top: 20px;
   left: 24px;
   background: blue;
   margin-right: 8px;
@@ -39,7 +39,7 @@
 .info-button {
   z-index: 300;
   position: fixed;
-  top: 16px;
+  top: 20px;
   left: 140px;
   display: inline-block;
   background: blue;
