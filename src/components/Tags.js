@@ -6,14 +6,12 @@ import useAnchor from './useAnchor';
 // const tags = [...new Set(allTags.flat())];
 
 const Tags = ({ tags, tagsDisplay, toggleFilters }) => {
-  // console.log(tags);
   const anchor = useAnchor();
   const handleClick = () => {
     anchor.scrollIntoView({ behavior: 'smooth' });
   };
 
   const handleFilter = (e) => {
-    // console.log(e.target.value);
     toggleFilters(e.target.value);
   }
 

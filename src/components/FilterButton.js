@@ -7,7 +7,7 @@ const FilterButton = ({ tags, toggleFilters }) => {
   const [tagsDisplay, setTagsDisplay] = useState('none');
 
   const handleClick = () => {
-    setIsExpanded(isExpanded === true ? false : true)
+    setIsExpanded(isExpanded === true ? false : true);
   };
 
   useEffect(() => {
@@ -19,14 +19,14 @@ const FilterButton = ({ tags, toggleFilters }) => {
       <motion.div
         className="filter-button"
         style={{ overflow: 'hidden' }}
-        onClick={handleClick}
+
         animate={{
           width: isExpanded ? '100vw' : 80,
           height: isExpanded ? 'auto' : 35,
         }}
         transition={{ duration: 0.6, stiffness: 30 }}
         >
-        <span className="filter-title">Filters</span>
+        <span className="filter-title" onClick={handleClick}>Filters</span>
         <div style={{ width: '90vw' }}>
           <Tags tagsDisplay={tagsDisplay} tags={tags} toggleFilters={toggleFilters} />
         </div>

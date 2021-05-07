@@ -4,27 +4,23 @@ import Headline from './Headline';
 import { useState } from 'react';
 import data from "../data/projects_data.json";
 
-// Import tags from data file
-const allTags = [];
+const allTags = []; // Import tags from data file
 data.forEach(project => allTags.push(project.tags));
 const tags = [...new Set(allTags.flat())];
 
 const Home = () => {
 
-  // Hide nav buttons on landing
-  const [refPoint, setRefPoint] = useState(false);
+  const [refPoint, setRefPoint] = useState(false); // Hide nav buttons on landing
 
   // const showNavButtons = () => {
   //   setRefPoint(true);
   //   console.log(refPoint);
   // };
 
-  // Filter projects with tags
-  const [activeFilters, setActiveFilters] = useState([]);
+  const [activeFilters, setActiveFilters] = useState([]); // Filter projects with tags
 
   const toggleFilters = (tag) => {
     if (activeFilters.includes(tag)) {
-      console.log('already here!')
       setActiveFilters(activeFilters.filter(current => current !== tag))
     } else {
       setActiveFilters([...activeFilters, tag])
@@ -36,7 +32,7 @@ const Home = () => {
     <>
       <Headline/>
       <NavButtons active={refPoint} tags={tags} toggleFilters={toggleFilters} />
-      <Projects />
+      <Projects activeFilters={activeFilters} />
     </>
   )
 }
