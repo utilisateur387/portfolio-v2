@@ -5,6 +5,8 @@
 .project-infos {
   display: grid;
   grid-template-columns: 3fr 5fr 1fr 4fr;
+  grid-gap: 24px;
+  padding-top: 16px;
 }
 .categories {
 
@@ -15,9 +17,14 @@
 .credits {
 
 }
-
+.content-title {
+  font-weight: bolder;
+}
 @media screen and (max-width: 780px) {
   .project-cover-img {
     height: calc((100vw - 48px) / 2);
+  }
+  .project-infos {
+    display: block;
   }
 }

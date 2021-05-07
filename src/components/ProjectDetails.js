@@ -40,13 +40,18 @@ const ProjectDetails = () => {
         <img src={coverUrl} alt="Project cover" className='project-cover-img' />
         <div className="project-infos">
           <div className="categories">
-            Hello
+            <p className='content-title'>Categories</p>
+            <p>
+              {project.tags.map(tag => <span className="tag" key={tag}>{tag}</span>)}
+            </p>
           </div>
           <div className="description">
+            <p className='content-title'>Project information</p>
             {project.full_description}
           </div>
           <div></div>
           <div className="credits">
+            <p className='content-title'>Credits</p>
             Hello
           </div>
         </div>
