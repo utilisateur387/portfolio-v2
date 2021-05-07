@@ -21,7 +21,7 @@ const FilterButton = ({ tags, toggleFilters, tagCount }) => {
         style={{ overflow: 'hidden' }}
 
         animate={{
-          width: isExpanded ? '100vw' : 80,
+          width: isExpanded ? '100vw' : 105,
           height: isExpanded ? 'auto' : 35,
         }}
         transition={{ duration: 0.6, stiffness: 30 }}

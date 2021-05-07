@@ -17,6 +17,7 @@
   display: inline-block;
 }
 .filter-button {
+  /*text-align: center;*/
   position: fixed;
   top: 16px;
   left: 24px;
@@ -39,7 +40,7 @@
   z-index: 300;
   position: fixed;
   top: 16px;
-  left: 116px;
+  left: 140px;
   display: inline-block;
   background: blue;
   color: white;
@@ -47,4 +48,17 @@
   border-radius: 10px;
   max-width: calc(100vw - 72px);
   white-space: nowrap;
+}
+.tag-active {
+  background: white;
+  color: blue;
+}
+.cross {
+  display: none;
+  text-transform: none;
+  margin-left: 6px;
+  font-weight: bold;
+}
+.cross-active {
+  display: inline;
 }

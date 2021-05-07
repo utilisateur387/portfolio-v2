@@ -2,7 +2,7 @@ import Card from './Card';
 import data from "../data/projects_data.json";
 import { useInView } from 'react-intersection-observer';
 
-const Projects = ({ showNavButtons, activeFilters }) => {
+const Projects = ({ showNavButtons, activeFilters, tagCount }) => {
 
   const [ref, inView] = useInView({
     threshold: 0,
@@ -14,6 +14,7 @@ const Projects = ({ showNavButtons, activeFilters }) => {
     <>
       <div ref={ref}></div>
       <div id="projects" className='project-list'>
+
         { data
             .filter(project => {
               return project.tags.some(tag => activeFilters.includes(tag))
@@ -21,6 +22,7 @@ const Projects = ({ showNavButtons, activeFilters }) => {
             .map(project => {
           return <Card project={project} key={project.id} />
         })}
+
       </div>
     </>
   )

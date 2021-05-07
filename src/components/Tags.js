@@ -1,5 +1,4 @@
 import useAnchor from './useAnchor';
-import { useState } from 'react';
 // import data from "../data/projects_data.json";
 
 // const allTags = [];
@@ -12,11 +11,13 @@ const Tags = ({ tags, tagsDisplay, toggleFilters }) => {
     anchor.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const [isActive, setIsActive] = useState(false);
-
   const handleFilter = (e) => {
     toggleFilters(e.target.value);
-    setIsActive(isActive === true ? false : true);
+
+    const cross = e.target.querySelector('.cross');
+    cross.classList.toggle('cross-active');
+
+    e.target.classList.toggle('tag-active');
   }
 
   return (
@@ -33,8 +34,9 @@ const Tags = ({ tags, tagsDisplay, toggleFilters }) => {
           key={tag}
           onClick={handleFilter}>
 
-          {tag}
-          { isActive && <span> x</span>}
+          {tag }
+          <span className="cross" > x</span>
+          {/*{ isActive && <span className="cross"> x</span>}*/}
         </button>)}
     </div>
   )

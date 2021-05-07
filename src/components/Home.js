@@ -21,14 +21,23 @@ const Home = () => {
   const [tagCount, setTagCount] = useState(0); // Track number of active tags
 
   const toggleFilters = (tag) => {
+    console.log(tag);
+
     if (activeFilters.includes(tag)) {
-      setActiveFilters(activeFilters.filter(current => current !== tag))
-      setTagCount(activeFilters.length);
+      setActiveFilters(prev => {
+        return prev.filter(current => current !== tag)
+      })
+      setTagCount(activeFilters.length - 1);
+
     } else {
-      setActiveFilters([...activeFilters, tag])
-      setTagCount(activeFilters.length);
+      console.log('NOW!');
+      setTagCount(activeFilters.length + 1);
+      return setActiveFilters(prev => [...prev, tag]);
+
+      // console.log(activeFilters);
     }
   }
+  console.log(activeFilters);
 
   return (
     <>
@@ -38,7 +47,9 @@ const Home = () => {
         tags={tags}
         toggleFilters={toggleFilters}
         tagCount={tagCount} />
-      <Projects activeFilters={activeFilters} />
+      <Projects
+        activeFilters={activeFilters}
+        tagCount={tagCount}/>
     </>
   )
 }
