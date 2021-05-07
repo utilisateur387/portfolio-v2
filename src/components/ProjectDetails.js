@@ -20,9 +20,16 @@ const ProjectDetails = () => {
 
   return (
     <div className="project-details">
+      <p className="project-headline">
+        <span className="uppercase">
+          {project.title}
+        </span>
+        <span className="italic">
+          , {project.type}, {project.date}
+        </span>
+      </p>
       <img src={coverUrl} alt="" />
       <button onClick={handleBack}>Back</button>
-      <h1>{project.title}</h1>
     </div>
   )
 }

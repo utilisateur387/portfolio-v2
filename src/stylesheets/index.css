@@ -4,6 +4,7 @@
 @import "./components/headline";
 @import "./components/navbar";
 @import "./config/fonts";
+@import "./config/font_settings";
 
 body {
   background: black;
@@ -21,6 +22,9 @@ body {
 }
 .uppercase {
   text-transform: uppercase;
+}
+.italic {
+  font-style: italic;
 }
 img {
   width: 100%;
