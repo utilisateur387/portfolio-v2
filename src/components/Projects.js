@@ -11,12 +11,14 @@ const Projects = ({ showNavButtons }) => {
   if (inView) showNavButtons();
 
   return (
-    <div id="projects" className='project-list'>
+    <>
       <div ref={ref}></div>
-      { data.map(project => {
-        return <Card project={project} />
-      })}
-    </div>
+      <div id="projects" className='project-list'>
+        { data.map(project => {
+          return <Card project={project} />
+        })}
+      </div>
+    </>
   )
 }
 

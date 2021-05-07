@@ -20,7 +20,7 @@
   left: 24px;
   background: blue;
   margin-right: 8px;
-  z-index: 200;
+  z-index: 400;
   color: white;
   border-radius: 10px;
   max-width: calc(100vw - 48px);
