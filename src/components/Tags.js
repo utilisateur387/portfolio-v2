@@ -12,14 +12,13 @@ const Tags = ({ tags, tagsDisplay, toggleFilters }) => {
   };
 
   const handleFilter = (e) => {
-    console.log(e.currentTarget);
+    const button = e.currentTarget;
+    toggleFilters(button.value);
 
-    toggleFilters(e.currentTarget.value);
-
-    const cross = e.currentTarget.querySelector('.cross');
+    const cross = button.querySelector('.cross');
     cross.classList.toggle('cross-active');
 
-    e.currentTarget.classList.toggle('tag-active');
+    button.classList.toggle('tag-active');
   }
 
   return (

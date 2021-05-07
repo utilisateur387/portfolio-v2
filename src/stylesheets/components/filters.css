@@ -15,6 +15,7 @@
   font-size: 1em;
   text-transform: capitalize;
   display: inline-block;
+  cursor: pointer;
 }
 .filter-button {
   position: fixed;
