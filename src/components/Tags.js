@@ -1,11 +1,12 @@
 import useAnchor from './useAnchor';
-import data from "../data/projects_data.json";
+// import data from "../data/projects_data.json";
 
-const allTags = [];
-data.forEach(project => allTags.push(project.tags));
-const tags = [...new Set(allTags.flat())];
+// const allTags = [];
+// data.forEach(project => allTags.push(project.tags));
+// const tags = [...new Set(allTags.flat())];
 
-const Tags = ({ tagsDisplay }) => {
+const Tags = ({ tags, tagsDisplay }) => {
+  // console.log(tags);
   const anchor = useAnchor();
   const handleClick = () => {
     anchor.scrollIntoView({ behavior: 'smooth' });

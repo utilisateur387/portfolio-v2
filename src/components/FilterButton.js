@@ -2,19 +2,17 @@ import Tags from './Tags';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-const FilterButton = () => {
+const FilterButton = ({ tags }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [tagsDisplay, setTagsDisplay] = useState('none');
 
   const handleClick = () => {
-    // setTagsDisplay(tagsDisplay == 'none' ? 'block' : 'none')
     setIsExpanded(isExpanded === true ? false : true)
   };
 
   useEffect(() => {
     setTagsDisplay('block')
   }, [])
-
 
   return (
     <>
@@ -30,7 +28,7 @@ const FilterButton = () => {
         >
         <span className="filter-title">Filters</span>
         <div style={{ width: '90vw' }}>
-          <Tags tagsDisplay={tagsDisplay} />
+          <Tags tagsDisplay={tagsDisplay} tags={tags} />
         </div>
       </motion.div>
 
