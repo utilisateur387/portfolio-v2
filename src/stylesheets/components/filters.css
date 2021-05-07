@@ -66,3 +66,14 @@
   width: 9px;
   margin-bottom: 1px;
 }
+.img-cross-block {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 12px;
+  margin-bottom: 1px;
+  padding: 6px;
+}
+.hide {
+  display: none;
+}
