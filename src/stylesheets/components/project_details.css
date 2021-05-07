@@ -25,11 +25,14 @@
   margin-left: 0;
   margin-right: 4px;
 }
+.categories-tags {
+  overflow: hidden;
+}
 @media screen and (max-width: 780px) {
   .project-cover-img {
     height: calc((100vw - 48px) / 2);
   }
   .project-infos {
-    display: block;
+    grid-template-columns: 1fr 1fr;
   }
 }

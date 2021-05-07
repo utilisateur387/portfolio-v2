@@ -41,9 +41,9 @@ const ProjectDetails = () => {
         <div className="project-infos">
           <div className="categories">
             <p className='content-title'>Categories</p>
-            <p>
-              {project.tags.map(tag => <span className="tag tag-details-page" key={tag}>{tag}</span>)}
-            </p>
+            <div className="categories-tags">
+              {project.tags.map(tag => <span className="tag tag-details-page" key={tag}>{tag} </span>)}
+            </div>
           </div>
           <div className="description">
             <p className='content-title'>Project information</p>
