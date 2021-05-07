@@ -20,7 +20,10 @@ const ProjectDetails = () => {
 
   return (
     <>
-      <p className="btn" onClick={handleBack}>Back to index</p>
+      <p className="btn" onClick={handleBack}>
+        <img src="images/general/arrow_left.png" alt="" className="arrow-back" />
+        Back to index
+      </p>
       <div className="project-details">
         <p className="project-headline">
           <span className="uppercase">

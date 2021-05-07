@@ -54,7 +54,7 @@ hr {
   }
 }
 .project-details {
-  padding-top: 48px;
+  padding-top: 68px;
 }
 .btn {
   background: blue;
@@ -65,4 +65,9 @@ hr {
   position: fixed;
   top: 20px;
   left: 24px;
+  margin-top: 0;
+}
+.arrow-back {
+  width: 11px;
+  margin-right: 6px;
 }
