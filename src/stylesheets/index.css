@@ -47,12 +47,6 @@ hr {
   border-top: solid 1px white;
   border-bottom: none;
 }
-@media screen and (max-width: 780px) {
-  .project-list {
-    grid-template-columns: 1fr;
-    transition: 1s ease;
-  }
-}
 .project-details {
   padding-top: 68px;
 }
@@ -71,4 +65,10 @@ hr {
 .arrow-back {
   width: 11px;
   margin-right: 6px;
+}
+@media screen and (max-width: 780px) {
+  .project-list {
+    grid-template-columns: 1fr;
+    transition: 1s ease;
+  }
 }
