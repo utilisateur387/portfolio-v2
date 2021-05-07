@@ -15,7 +15,9 @@ const Projects = ({ showNavButtons, activeFilters }) => {
       <div ref={ref}></div>
       <div id="projects" className='project-list'>
         { data
-            .filter(project => project.tags.some(tag => activeFilters.includes(tag)))
+            .filter(project => {
+              return project.tags.some(tag => activeFilters.includes(tag))
+            })
             .map(project => {
           return <Card project={project} key={project.id} />
         })}

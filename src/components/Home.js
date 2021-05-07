@@ -18,20 +18,26 @@ const Home = () => {
   // };
 
   const [activeFilters, setActiveFilters] = useState([]); // Filter projects with tags
+  const [tagCount, setTagCount] = useState(0); // Track number of active tags
 
   const toggleFilters = (tag) => {
     if (activeFilters.includes(tag)) {
       setActiveFilters(activeFilters.filter(current => current !== tag))
+      setTagCount(activeFilters.length);
     } else {
       setActiveFilters([...activeFilters, tag])
+      setTagCount(activeFilters.length);
     }
   }
-  console.log(activeFilters);
 
   return (
     <>
       <Headline/>
-      <NavButtons active={refPoint} tags={tags} toggleFilters={toggleFilters} />
+      <NavButtons
+        active={refPoint}
+        tags={tags}
+        toggleFilters={toggleFilters}
+        tagCount={tagCount} />
       <Projects activeFilters={activeFilters} />
     </>
   )
