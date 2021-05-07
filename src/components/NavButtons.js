@@ -4,13 +4,13 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import InfoButton from './InfoButton';
 
-const NavButtons = ({ active, tags }) => {
+const NavButtons = ({ active, tags, toggleFilters }) => {
   return (
     <motion.div
       id="filters"
       className="nav-buttons"
       style={{ opacity: active ? 1 : 0}} >
-      <FilterButton tags={tags} />
+      <FilterButton tags={tags} toggleFilters={toggleFilters} />
       <InfoButton />
     </motion.div>
   )

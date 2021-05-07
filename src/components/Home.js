@@ -22,14 +22,15 @@ const Home = () => {
   // Filter projects with tags
   const [activeFilters, setActiveFilters] = useState([]);
 
-  const toggleFilters = (tag) => {
-    setActiveFilters([...activeFilters, tag])
+  const toggleFilters = (e) => {
+    console.log(e);
+    // setActiveFilters([...activeFilters, e.target.value])
   }
 
   return (
     <>
       <Headline/>
-      <NavButtons active={refPoint} tags={tags} />
+      <NavButtons active={refPoint} tags={tags} toggleFilters={toggleFilters} />
       <Projects showNavButtons={showNavButtons} />
     </>
   )
