@@ -15,13 +15,24 @@ const Projects = ({ showNavButtons, activeFilters, tagCount }) => {
       <div ref={ref}></div>
       <div id="projects" className='project-list'>
 
-        { data
+        { tagCount > 0 &&
+
+          data
             .filter(project => {
               return project.tags.some(tag => activeFilters.includes(tag))
             })
             .map(project => {
-          return <Card project={project} key={project.id} />
-        })}
+              return <Card project={project} key={project.id} />
+            })
+        }
+
+        { tagCount === 0 &&
+
+            data
+              .map(project => {
+            return <Card project={project} key={project.id} />
+          })
+        }
 
       </div>
     </>

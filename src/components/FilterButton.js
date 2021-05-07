@@ -24,7 +24,7 @@ const FilterButton = ({ tags, toggleFilters, tagCount }) => {
           width: isExpanded ? '100vw' : 105,
           height: isExpanded ? 'auto' : 35,
         }}
-        transition={{ duration: 0.6, stiffness: 30 }}
+        transition={{ duration: 0.3, stiffness: 30 }}
         >
         <span className="filter-title" onClick={handleClick}>Filters ({tagCount})</span>
         <div style={{ width: '90vw' }}>
