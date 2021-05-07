@@ -11,6 +11,11 @@ const Home = () => {
     console.log(refPoint);
   };
 
+  const [activeFilters, setActiveFilters] = useState([]);
+  const toggleFilters = (tag) => {
+    setActiveFilters([...activeFilters])
+  }
+
   return (
     <>
       <Headline/>
