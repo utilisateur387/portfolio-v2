@@ -9,7 +9,8 @@
   padding-top: 16px;
 }
 .categories {
-
+  min-width: 0;
+  overflow: hidden;
 }
 .description {
 
@@ -19,6 +20,10 @@
 }
 .content-title {
   font-weight: bolder;
+}
+.tag-details-page {
+  margin-left: 0;
+  margin-right: 4px;
 }
 @media screen and (max-width: 780px) {
   .project-cover-img {

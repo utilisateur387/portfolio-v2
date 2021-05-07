@@ -33,6 +33,16 @@
 }
 .img-container > img {
   margin-bottom: -4px; /* TEMPORARY, NEEDS TO BE FIXED */
-  width: 100%;
   max-height: 100%;
+}
+
+@media screen and (max-width: 780px) {
+  .card-top-infos {
+    display: block;
+  }
+  .card p {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 12px;
+  }
 }
