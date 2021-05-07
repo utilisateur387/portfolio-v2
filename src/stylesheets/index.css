@@ -66,6 +66,7 @@ hr {
   top: 20px;
   left: 24px;
   margin-top: 0;
+  cursor: pointer;
 }
 .arrow-back {
   width: 11px;

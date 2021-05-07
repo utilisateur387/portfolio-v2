@@ -1,9 +1,13 @@
+import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
 import data from "../data/projects_data.json";
 
 const ProjectDetails = () => {
-  console.log(data);
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
   const {id} = useParams();
   const project = data.find(project => project.id == id);
   const coverUrl = `images/${project.title
@@ -33,7 +37,7 @@ const ProjectDetails = () => {
             , {project.type}, {project.date}
           </span>
         </p>
-        <img src={coverUrl} alt="" />
+        <img src={coverUrl} alt="Project cover" className='project-cover-img' />
       </div>
     </>
   )
