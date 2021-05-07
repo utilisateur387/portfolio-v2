@@ -30,11 +30,8 @@ const Home = () => {
       setTagCount(activeFilters.length - 1);
 
     } else {
-      console.log('NOW!');
       setTagCount(activeFilters.length + 1);
       return setActiveFilters(prev => [...prev, tag]);
-
-      // console.log(activeFilters);
     }
   }
   console.log(activeFilters);
