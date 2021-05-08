@@ -1,1 +1,5 @@
-## Web portfolio V2 with React
+## 📒 Portfolio 
+
+I'm using React to dynamically load all project related data.  
+*Coming soon!*
+
