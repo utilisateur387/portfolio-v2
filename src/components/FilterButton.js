@@ -19,7 +19,7 @@ const FilterButton = ({ tags, toggleFilters, tagCount }) => {
       <motion.div
         className="filter-button"
         style={{ overflow: 'hidden' }}
-
+        initial={{ width: 105 }}
         animate={{
           width: isExpanded ? '100vw' : 105,
           height: isExpanded ? 'auto' : 35,
