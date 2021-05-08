@@ -14,7 +14,10 @@ const Card = ({ project }) => {
 
   return (
     <div className="card" ref={ref}>
-      <div className="card-top-infos">
+      <div
+        className="card-top-infos"
+        style={{ opacity: inView ? 1 : 0, transition: '0.5s' }}
+        >
         <p className="uppercase">{project.title}</p>
         <div className="tags-container">
           {project.tags.map(tag => <span className="tag" key={tag}>{tag}</span>)}
@@ -23,7 +26,7 @@ const Card = ({ project }) => {
       <Link to={`/${project.id}`}>
         <div
           className="img-container"
-          style={{ opacity: inView ? 1 : 0, transition: '1s', transitionDelay: '150ms'}}>
+          style={{ opacity: inView ? 1 : 0, transition: '1s', transitionDelay: '50ms'}}>
           <img src={coverUrl} alt="" />
         </div>
       </Link>
