@@ -2,12 +2,18 @@
   background: blue;
   border-radius: 14px;
   padding: 16px;
-  margin-top: 24px;
-  z-index: 300;
+  /*margin-top: 24px;*/
+  margin-bottom: 24px;
+  z-index: 400;
   overflow-y: auto;
-  height: 90vh;
-  top: 0;
+  height: 100vh;
+  /*height: calc(100vh - 80px);*/
+  top: 24px;
   position: fixed;
+  width: calc(100vw - 80px);
+}
+.about div:last-child {
+  margin-bottom: 32px;
 }
 .about-links {
 

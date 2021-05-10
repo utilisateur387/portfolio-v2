@@ -1,9 +1,12 @@
-import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const About = ({ toggleAbout }) => {
   return (
-    <div className="about">
-      {/*<Link to="/">Home</Link>*/}
+    <motion.div
+      className="about"
+      initial={{ y: '100vh' }}
+      animate={{ y: 0 }}
+      transition={{ duration: 1, type: 'tween' }}>
       <div onClick={toggleAbout}>Home</div>
       <p>
         I'm an arts and culture enthusiast, especially when it comes to new technologies and immersive experiences. After working as a graphic designer in New York, I joined Le Wagon coding bootcamp to become a web developer and extend my skills in the digital field.
@@ -21,7 +24,7 @@ const About = ({ toggleAbout }) => {
         LinkedIn,
         Instagram
       </div>
-    </div>
+    </motion.div>
 
   )
 }
