@@ -8,11 +8,11 @@ import data from "../data/projects_data.json";
 const allTags = []; // Import tags from data file
 data.forEach(project => allTags.push(project.tags));
 const tags = [...new Set(allTags.flat())];
-const [showAbout, setShowAbout] = useState(false);
 
 const Home = () => {
 
   const [refPoint, setRefPoint] = useState(false); // Hide nav buttons on landing
+  const [showAbout, setShowAbout] = useState(false);
 
   // const showNavButtons = () => {
   //   setRefPoint(true);
@@ -36,7 +36,10 @@ const Home = () => {
       return setActiveFilters(prev => [...prev, tag]);
     }
   }
-  console.log(activeFilters);
+
+  const toggleAbout = () => {
+
+  }
 
   return (
     <>
@@ -46,10 +49,10 @@ const Home = () => {
         tags={tags}
         toggleFilters={toggleFilters}
         tagCount={tagCount} />
+      { showAbout && <About />}
       <Projects
         activeFilters={activeFilters}
         tagCount={tagCount}/>
-      { showAbout && <About />}
     </>
   )
 }
