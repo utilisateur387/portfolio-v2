@@ -44,7 +44,9 @@ const ProjectDetails = () => {
                 , {project.type}, {project.date}
               </span>
             </p>
+
             <img src={coverUrl} alt="Project cover" className='project-cover-img' />
+
             <div className="project-infos">
               <div className="categories">
                 <p className='content-title'>Categories</p>
@@ -52,11 +54,14 @@ const ProjectDetails = () => {
                   {project.tags.map(tag => <span className="tag tag-test" key={tag}>{`${tag} `}</span>)}
                 </div>
               </div>
+
               <div className="description">
                 <p className='content-title'>Project information</p>
                 {project.full_description}
               </div>
+
               <div></div>
+
               <div className="credits">
                 <p className='content-title'>Credits</p>
                 Hello
