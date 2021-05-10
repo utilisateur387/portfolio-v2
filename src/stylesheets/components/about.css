@@ -1,1 +1,10 @@
-
+.about {
+  background: blue;
+  border-radius: 14px;
+  padding: 16px;
+  z-index: 300;
+  position: fixed;
+  top: 24px;
+  width: calc(100vw - 80px);
+overflow-y: scroll;
+}
