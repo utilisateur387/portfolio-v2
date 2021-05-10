@@ -39,6 +39,7 @@
 @media screen and (max-width: 440px) {
   .card-top-infos {
     display: block;
+    margin-bottom: 16px;
   }
   .card p {
     display: inline-block;
