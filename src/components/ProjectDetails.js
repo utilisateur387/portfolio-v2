@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
 import data from "../data/projects_data.json";
+import { motion, AnimatePresence } from 'framer-motion';
 
 const ProjectDetails = () => {
   useEffect(() => {
@@ -23,7 +24,10 @@ const ProjectDetails = () => {
   }
 
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}>
       <p className="btn" onClick={handleBack}>
         <img src="images/general/arrow_left.png" alt="" className="arrow-back" />
         Back to index
@@ -56,7 +60,7 @@ const ProjectDetails = () => {
           </div>
         </div>
       </div>
-    </>
+    </motion.div>
   )
 }
 
