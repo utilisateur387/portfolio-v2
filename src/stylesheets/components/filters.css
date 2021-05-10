@@ -73,11 +73,10 @@
   width: 15px;
   margin-bottom: 1px;
   padding: 6px;
-  cursor: pointer;
 }
 .hide {
   display: none;
 }
-.filter-title {
+.filter-title, .info-button, .img-cross-block {
   cursor: pointer;
 }
