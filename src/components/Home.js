@@ -38,7 +38,7 @@ const Home = () => {
   }
 
   const toggleAbout = () => {
-
+    setShowAbout(showAbout === true ? false : true);
   }
 
   return (
