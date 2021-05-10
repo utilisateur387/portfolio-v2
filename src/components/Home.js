@@ -47,6 +47,7 @@ const Home = () => {
       <Projects
         activeFilters={activeFilters}
         tagCount={tagCount}/>
+      <About />
     </>
   )
 }
