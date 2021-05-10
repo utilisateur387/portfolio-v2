@@ -8,6 +8,7 @@ import data from "../data/projects_data.json";
 const allTags = []; // Import tags from data file
 data.forEach(project => allTags.push(project.tags));
 const tags = [...new Set(allTags.flat())];
+const [showAbout, setShowAbout] = useState(false);
 
 const Home = () => {
 
@@ -48,7 +49,7 @@ const Home = () => {
       <Projects
         activeFilters={activeFilters}
         tagCount={tagCount}/>
-      <About />
+      { showAbout && <About />}
     </>
   )
 }
