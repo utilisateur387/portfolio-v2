@@ -29,10 +29,12 @@ const ProjectDetails = () => {
           <img src="images/general/arrow_left.png" alt="" className="arrow-back" />
           Back to index
         </p>
+
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}>
+
           <div className="project-details">
             <p className="project-headline">
               <span className="uppercase">
