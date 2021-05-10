@@ -6,7 +6,7 @@ const Card = ({ project }) => {
     .toLowerCase()
     .replaceAll(' ', '_')
     .replaceAll('.', '')
-  }/cover_image.png`;
+  }/cover_image.jpg`;
 
   const [ref, inView] = useInView({
     threshold: 0,
