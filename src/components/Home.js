@@ -38,11 +38,23 @@ const Home = () => {
   }
 
   const toggleAbout = () => {
-    setShowAbout(showAbout === true ? false : true);
+    if (showAbout === false) {
+      setShowAbout(true);
+      const body = document.querySelector('body');
+      body.style.overflowY = 'hidden';
+    } else {
+      setShowAbout(false);
+      const body = document.querySelector('body');
+      body.style.overflowY = 'auto';
+    }
+    // setShowAbout(showAbout === true ? false : true);
   }
 
   return (
-    <div style={{ overflowY: showAbout ? 'hidden' : 'auto' }}>
+    <div
+      className="body"
+      style={{ overflowY: 'hidden'}}>
+    {/*<div style={{ overflowY: showAbout ? 'hidden' : 'auto' }}>*/}
       <Headline/>
       <NavButtons
         active={refPoint}
