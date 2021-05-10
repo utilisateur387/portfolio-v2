@@ -48,6 +48,7 @@ const Home = () => {
         active={refPoint}
         tags={tags}
         toggleFilters={toggleFilters}
+        toggleAbout={toggleAbout}
         tagCount={tagCount} />
       { showAbout && <About />}
       <Projects

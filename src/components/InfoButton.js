@@ -1,7 +1,8 @@
-const InfoButton = () => {
+const InfoButton = ({ toggleAbout }) => {
   return (
     <div
-      className="info-button">
+      className="info-button"
+      onClick={toggleAbout}>
       About me
     </div>
   )
