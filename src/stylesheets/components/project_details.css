@@ -25,8 +25,9 @@
   margin-right: 4px;
 }
 .container-categories-tags {
-  margin-bottom: 14px;;
+  margin-bottom: 14px;
   line-height: 2em;
+
 }
 @media screen and (max-width: 780px) {
   .project-cover-img {
@@ -35,4 +36,8 @@
   .project-infos {
     grid-template-columns: 1fr 1fr;
   }
+}
+.tag-test {
+  margin-left: 0;
+  margin-right: 4px;
 }

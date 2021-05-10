@@ -42,7 +42,7 @@ const ProjectDetails = () => {
           <div className="categories">
             <p className='content-title'>Categories</p>
             <div className="container-categories-tags">
-              {project.tags.map(tag => <span className="tag tag-details-page" key={tag}>{tag} </span>)}
+              {project.tags.map(tag => <span className="tag tag-test" key={tag}>{`${tag} `}</span>)}
             </div>
           </div>
           <div className="description">
