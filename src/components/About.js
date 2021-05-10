@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
 
-const About = () => {
+const About = ({ toggleAbout }) => {
   return (
     <div className="about">
-      <Link to="/">Home</Link>
+      {/*<Link to="/">Home</Link>*/}
+      <div onClick={toggleAbout}>Home</div>
       <p>
         I'm an arts and culture enthusiast, especially when it comes to new technologies and immersive experiences. After working as a graphic designer in New York, I joined Le Wagon coding bootcamp to become a web developer and extend my skills in the digital field.
       </p>

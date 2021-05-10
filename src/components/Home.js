@@ -42,20 +42,19 @@ const Home = () => {
   }
 
   return (
-    <>
+    <div style={{ overflowY: showAbout ? 'hidden' : 'auto' }}>
       <Headline/>
       <NavButtons
         active={refPoint}
         tags={tags}
         toggleFilters={toggleFilters}
-        // toggleAbout={toggleAbout}
+        toggleAbout={toggleAbout}
         tagCount={tagCount} />
-      { showAbout && <About />}
-      <About />
+      { showAbout && <About toggleAbout={toggleAbout} />}
       <Projects
         activeFilters={activeFilters}
         tagCount={tagCount}/>
-    </>
+    </div>
   )
 }
 

@@ -12,9 +12,9 @@ function App() {
             <Home />
           </Route>
 
-{          <Route exact path="/about">
+{/*          <Route exact path="/about">
             <About />
-          </Route>}
+          </Route>}*/}
 
           <Route path="/:id">
             <ProjectDetails />
