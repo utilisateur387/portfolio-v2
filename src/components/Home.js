@@ -1,6 +1,7 @@
 import Projects from './Projects';
 import NavButtons from './NavButtons';
 import Headline from './Headline';
+import About from './About';
 import { useState } from 'react';
 import data from "../data/projects_data.json";
 
