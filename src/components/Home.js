@@ -12,7 +12,7 @@ const tags = [...new Set(allTags.flat())];
 const Home = () => {
 
   const [refPoint, setRefPoint] = useState(false); // Hide nav buttons on landing
-  // const [showAbout, setShowAbout] = useState(false);
+  const [showAbout, setShowAbout] = useState(false);
 
   // const showNavButtons = () => {
   //   setRefPoint(true);
@@ -37,9 +37,9 @@ const Home = () => {
     }
   }
 
-  // const toggleAbout = () => {
-  //   setShowAbout(showAbout === true ? false : true);
-  // }
+  const toggleAbout = () => {
+    setShowAbout(showAbout === true ? false : true);
+  }
 
   return (
     <>
@@ -50,9 +50,10 @@ const Home = () => {
         toggleFilters={toggleFilters}
         // toggleAbout={toggleAbout}
         tagCount={tagCount} />
-      {/*{ showAbout && <About />}*/}
+      { showAbout && <About />}
+      <About />
       <Projects
-        // activeFilters={activeFilters}
+        activeFilters={activeFilters}
         tagCount={tagCount}/>
     </>
   )

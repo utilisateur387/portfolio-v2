@@ -5,7 +5,7 @@ const InfoButton = ({ toggleAbout }) => {
     <Link to="/about">
       <div
         className="info-button"
-        // onClick={toggleAbout}
+        onClick={toggleAbout}
         >
         About me
       </div>

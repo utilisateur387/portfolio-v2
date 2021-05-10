@@ -1,9 +1,23 @@
+body {
+  overflow-y: hidden;
+}
 .about {
   background: blue;
   border-radius: 14px;
   padding: 16px;
   margin-top: 24px;
   z-index: 300;
-  width: 100%;
+  overflow-y: auto;
   height: 90vh;
+  top: 0;
+  position: fixed;
 }
+.about-links {
+
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
