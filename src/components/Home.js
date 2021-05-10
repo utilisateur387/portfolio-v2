@@ -4,6 +4,7 @@ import Headline from './Headline';
 import About from './About';
 import { useState } from 'react';
 import data from "../data/projects_data.json";
+import { motion } from 'framer-motion';
 
 const allTags = []; // Import tags from data file
 data.forEach(project => allTags.push(project.tags));
@@ -62,7 +63,9 @@ const Home = () => {
         toggleFilters={toggleFilters}
         toggleAbout={toggleAbout}
         tagCount={tagCount} />
-      { showAbout && <About toggleAbout={toggleAbout} />}
+
+      {/*{ showAbout && <About toggleAbout={toggleAbout} />}*/}
+      <About toggleAbout={toggleAbout} showAbout={showAbout} />
       <Projects
         activeFilters={activeFilters}
         tagCount={tagCount}/>
