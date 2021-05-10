@@ -1,13 +1,24 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
 import data from "../data/projects_data.json";
 import { motion } from 'framer-motion';
 
 const ProjectDetails = () => {
+  const [windowSize, setWindowSize] = useState(null);
+
+
   useEffect(() => {
     window.scrollTo(0, 0) // Scroll to top to prevent landing at the bottom
   }, []);
+
+  useEffect(() => {
+    window.addEventListener('resize', () => {
+      setWindowSize({ width: window.innerWidth, height: window.innerHeight });
+      console.log(windowSize);
+    })
+  }, []);
+
 
   const {id} = useParams();
   const project = data.find(project => project.id == id);
