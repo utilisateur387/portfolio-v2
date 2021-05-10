@@ -16,7 +16,7 @@ const Card = ({ project }) => {
     <div className="card" ref={ref}>
       <div
         className="card-top-infos"
-        style={{ opacity: inView ? 1 : 0, transition: '0.5s' }}
+        style={{ opacity: inView ? 1 : 0, transition: '0.4s' }}
         >
         <p className="uppercase">{project.title}</p>
         <div className="tags-container">

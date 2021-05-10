@@ -24,43 +24,45 @@ const ProjectDetails = () => {
   }
 
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}>
-      <p className="btn" onClick={handleBack}>
-        <img src="images/general/arrow_left.png" alt="" className="arrow-back" />
-        Back to index
-      </p>
-      <div className="project-details">
-        <p className="project-headline">
-          <span className="uppercase">
-            {project.title}
-          </span>
-          <span className="italic">
-            , {project.type}, {project.date}
-          </span>
+      <>
+        <p className="btn" onClick={handleBack}>
+          <img src="images/general/arrow_left.png" alt="" className="arrow-back" />
+          Back to index
         </p>
-        <img src={coverUrl} alt="Project cover" className='project-cover-img' />
-        <div className="project-infos">
-          <div className="categories">
-            <p className='content-title'>Categories</p>
-            <div className="container-categories-tags">
-              {project.tags.map(tag => <span className="tag tag-test" key={tag}>{`${tag} `}</span>)}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}>
+          <div className="project-details">
+            <p className="project-headline">
+              <span className="uppercase">
+                {project.title}
+              </span>
+              <span className="italic">
+                , {project.type}, {project.date}
+              </span>
+            </p>
+            <img src={coverUrl} alt="Project cover" className='project-cover-img' />
+            <div className="project-infos">
+              <div className="categories">
+                <p className='content-title'>Categories</p>
+                <div className="container-categories-tags">
+                  {project.tags.map(tag => <span className="tag tag-test" key={tag}>{`${tag} `}</span>)}
+                </div>
+              </div>
+              <div className="description">
+                <p className='content-title'>Project information</p>
+                {project.full_description}
+              </div>
+              <div></div>
+              <div className="credits">
+                <p className='content-title'>Credits</p>
+                Hello
+              </div>
             </div>
           </div>
-          <div className="description">
-            <p className='content-title'>Project information</p>
-            {project.full_description}
-          </div>
-          <div></div>
-          <div className="credits">
-            <p className='content-title'>Credits</p>
-            Hello
-          </div>
-        </div>
-      </div>
-    </motion.div>
+        </motion.div>
+      </>
   )
 }
 
