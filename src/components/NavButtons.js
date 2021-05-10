@@ -14,7 +14,8 @@ const NavButtons = ({ active, tags, toggleFilters, toggleAbout, tagCount }) => {
         toggleFilters={toggleFilters}
         tagCount={tagCount} />
       <InfoButton
-        toggleAbout={toggleAbout} />
+        // toggleAbout={toggleAbout}
+      />
     </motion.div>
   )
 }
