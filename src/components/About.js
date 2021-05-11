@@ -37,7 +37,7 @@ const About = ({ toggleAbout, showAbout }) => {
         <hr style={{ marginBottom: 32 }}/>
 
         <div className="about-content">
-          <div>
+          <div className="about-content-block">
             <p className="about-section-title">
               Experience
             </p>
@@ -59,7 +59,7 @@ const About = ({ toggleAbout, showAbout }) => {
             </p>
           </div>
 
-          <div>
+          <div className="about-content-block">
             <p className="about-section-title">
               Education
             </p>
@@ -77,7 +77,7 @@ const About = ({ toggleAbout, showAbout }) => {
             </p>
           </div>
 
-          <div>
+          <div className="about-content-block">
             <p className="about-section-title">
               Clients / Collaborators
             </p>
@@ -86,25 +86,30 @@ const About = ({ toggleAbout, showAbout }) => {
             </p>
           </div>
 
-          <div>
+          <div className="about-content-block">
             <p className="about-section-title">
               Technologies I enjoy using
             </p>
-            <p>
-              ReactJS
-              Ruby on Rails
-              ES6 Javascript
-              HTML, CSS
-              APIs, JSON, scraping
-              Git, GitHub
-              SQL, Postgres
-              Clever Cloud
-              Figma, Sketch
-              Adobe Creative Suite
-              Blender 3D
-              Max/MSP
-              Arduino
-              Resolume
+            <p className="technologies">
+              <div>
+                ReactJS<br/>
+                Ruby on Rails<br/>
+                ES6 Javascript<br/>
+                HTML, CSS<br/>
+                APIs, JSON, scraping<br/>
+                Git, GitHub<br/>
+                SQL, Postgres<br/>
+              </div>
+
+              <div>
+                Clever Cloud<br/>
+                Figma, Sketch<br/>
+                Adobe Creative Suite<br/>
+                Blender 3D<br/>
+                Max/MSP<br/>
+                Arduino<br/>
+                Resolume
+              </div>
             </p>
           </div>
 
