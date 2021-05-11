@@ -33,23 +33,23 @@ const About = ({ toggleAbout, showAbout }) => {
           <div>
             <p className="about-section-title">Say hi</p>
             <a href="/" target="_blank">
-              iyeyemim@gmail.com
+              iyeyemim @ gmail.com
             </a>
           </div>
 
           <div>
             <p className="about-section-title">Find me online</p>
-            <span className="link">
+            <span className="link nobreak">
               <a href="/" target="_blank">
                 Github <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
               </a>
             </span>
-            <span className="link">
+            <span className="link nobreak">
               <a href="/" target="_blank">
                 LinkedIn <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
               </a>
             </span>
-            <span className="link">
+            <span className="link nobreak">
               <a href="/" target="_blank">
                 Instagram <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
               </a>
@@ -65,20 +65,20 @@ const About = ({ toggleAbout, showAbout }) => {
               Experience
             </p>
             <p>
-              Base Design, NYC<br/>
-              Digital Designer
+              <span className="uppercase">Base Design, NYC</span><br/>
+              <span className="additional-infos">Digital Designer</span>
             </p>
             <p>
-              Double Standards, Berlin<br/>
-              Graphic Designer
+              <span className="uppercase">Double Standards, Berlin</span><br/>
+              <span className="additional-infos">Graphic Designer</span>
             </p>
             <p>
-              Studio150, Bangkok<br/>
-              Design Intern
+              <span className="uppercase">Studio150, Bangkok</span><br/>
+              <span className="additional-infos">Design Intern</span>
             </p>
             <p>
-              UsBerlin, Berlin<br/>
-              Design Intern
+              <span className="uppercase">UsBerlin, Berlin</span><br/>
+              <span className="additional-infos">Design Intern</span>
             </p>
           </div>
 
@@ -87,16 +87,21 @@ const About = ({ toggleAbout, showAbout }) => {
               Education
             </p>
             <p>
-              Le Wagon coding bootcamp<br/>
-              Fullstack Web Development
+              <span className="uppercase">Le Wagon coding bootcamp</span><br/>
+              <span className="additional-infos">Fullstack Web Development</span>
             </p>
             <p>
-              MA Graphic Design<br/>
-              ENSAAMA Olivier de Serres, Paris, FR
+              <span className="uppercase">MA Graphic Design</span><br/>
+              <span className="additional-infos">ENSAAMA Olivier de Serres, Paris, FR</span><br/>
+              <span className="additional-infos link nobreak">
+                <a rel="noreferrer" href="http://ensaama.net/site/home/diplomes/2018/dsaa-design-graphique/Iyeyemi-Miebi" target="_blank">
+                  View graduation project <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
+                </a>
+              </span>
             </p>
             <p>
-              BA Graphic Design<br/>
-              ESAAT, Roubaix, FR
+              <span className="uppercase">BA Graphic Design</span><br/>
+              <span className="additional-infos">ESAAT, Roubaix, FR</span>
             </p>
           </div>
 
