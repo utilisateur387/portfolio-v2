@@ -77,4 +77,7 @@
   .about-hr {
     margin-bottom: 56px;
   }
+  .link {
+    display: block;
+  }
 }
