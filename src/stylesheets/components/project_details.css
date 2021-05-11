@@ -1,6 +1,7 @@
 .project-cover-img {
   height: calc((100vw - 48px) / 3);
   object-fit: cover;
+  border-radius: 4px;
 }
 .project-infos {
   display: grid;

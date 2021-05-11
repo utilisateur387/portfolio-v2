@@ -30,8 +30,10 @@ body {
 .nobreak {
   white-space: nowrap;
 }
-.project-list img {
+img {
   width: 100%;
+}
+.project-list img {
   border-radius: 4px;
 }
 a {
