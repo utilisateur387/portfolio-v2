@@ -86,7 +86,6 @@ const ProjectDetails = () => {
             </div>
 
             <div className="project-infos mobile">
-
               <div className="categories">
                 <p className='content-title'>Categories</p>
                 <div className="container-categories-tags">
