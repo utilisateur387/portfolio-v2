@@ -30,10 +30,36 @@ const About = ({ toggleAbout, showAbout }) => {
 
         <div className="about-content">
           <div>
-            Hello
+            Education
+
+            Le Wagon coding bootcamp
+            Fullstack Web Development
+
+            MA Graphic Design
+            ENSAAMA Olivier de Serres, Paris, FR
+
+            BA Graphic Design
+            ESAAT, Roubaix, FR
           </div>
+
           <div>
-            Hello
+            Experience
+
+            Base Design, NYC
+            Digital Designer
+
+            Double Standards, Berlin
+            Graphic Designer
+
+            Studio150, Bangkok
+            Design Intern
+
+            UsBerlin, Berlin
+            Design Intern
+          </div>
+
+          <div>
+            Clients / Collaborators
           </div>
         </div>
 
