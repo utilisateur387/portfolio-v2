@@ -16,7 +16,7 @@ const Card = ({ project }) => {
     <div className="card" ref={ref}>
       <div
         className="card-top-infos"
-        style={{ opacity: inView ? 1 : 0, transition: '0.4s' }}
+        style={{ opacity: inView ? 1 : 0, transition: 'opacity 0.4s' }}
         >
         <p className="uppercase">{project.title}</p>
         <div className="tags-container">
@@ -26,7 +26,7 @@ const Card = ({ project }) => {
       <Link to={`/${project.id}`}>
         <div
           className="img-container"
-          style={{ opacity: inView ? 1 : 0, transition: '1s', transitionDelay: '50ms'}}>
+          style={{ opacity: inView ? 1 : 0, transition: 'opacity 1s', transitionDelay: '50ms'}}>
           <img src={coverUrl} alt="" />
         </div>
       </Link>

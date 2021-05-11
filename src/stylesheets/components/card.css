@@ -54,4 +54,11 @@
   }
 }
 
+@media screen and (max-width: 780px) {
+  .project-list {
+    grid-template-columns: 1fr;
+    transition: 1s ease;
+  }
+}
+
 

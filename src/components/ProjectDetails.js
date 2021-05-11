@@ -47,7 +47,8 @@ const ProjectDetails = () => {
 
             <img src={coverUrl} alt="Project cover" className='project-cover-img' />
 
-            <div className="project-infos">
+            {/* DESKTOP LAYOUT */}
+            <div className="project-infos desktop">
               <div className="categories">
                 <p className='content-title'>Categories</p>
                 <div className="container-categories-tags">
@@ -64,7 +65,47 @@ const ProjectDetails = () => {
 
               <div className="credits">
                 <p className='content-title'>Credits</p>
-                Hello
+                Team: 
+                <br/>
+                Louise Michelle Duigou <br/>
+                Ambre Lemaitre <br/>
+                Maxime Lorem<br/>
+                <br/>
+                Fonts: <br/>
+                Lorem Ipsum<br/>
+                <br/>
+                Motion Motion, Stereolux
+              </div>
+            </div>
+
+
+            {/* MOBILE LAYOUT */}
+            <div className="description">
+              <p className='content-title'>Project information</p>
+              {project.full_description}
+            </div>
+
+            <div className="project-infos mobile">
+
+              <div className="categories">
+                <p className='content-title'>Categories</p>
+                <div className="container-categories-tags">
+                  {project.tags.map(tag => <span className="tag tag-details-page" key={tag}>{`${tag} `}</span>)}
+                </div>
+              </div>
+
+              <div className="credits">
+                <p className='content-title'>Credits</p>
+                Team: 
+                <br/>
+                Louise Michelle Duigou <br/>
+                Ambre Lemaitre <br/>
+                Maxime Lorem<br/>
+                <br/>
+                Fonts: <br/>
+                Lorem Ipsum<br/>
+                <br/>
+                Motion Motion, Stereolux
               </div>
             </div>
           </div>
