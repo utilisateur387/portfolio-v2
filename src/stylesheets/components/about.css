@@ -10,11 +10,13 @@
   width: calc(100vw - 96px);
 }
 .about-links {
-
+  margin-bottom: 48px;
 }
 .about-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 24px;
+  font-size: 20px;
 }
 .about-close {
   position: sticky;
@@ -31,4 +33,12 @@
 .about-back {
   font-size: 16px;
   text-transform: uppercase;
+}
+.about-section-title {
+  margin-bottom: 24px;
+  font-weight: bolder;
+}
+.arrow-slanted {
+  width: 18px;
+  margin-right: 24px;
 }
