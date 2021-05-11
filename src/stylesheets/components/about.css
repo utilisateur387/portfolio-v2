@@ -11,6 +11,13 @@
 }
 .about-links {
   margin-bottom: 48px;
+  font-size: 20px;
+}
+.link {
+  white-space: nowrap;
+}
+.link a:hover {
+  text-decoration: underline;
 }
 .about-content {
   display: grid;
@@ -39,7 +46,7 @@
   font-weight: bolder;
 }
 .arrow-slanted {
-  width: 18px;
+  width: 14px;
   margin-right: 24px;
 }
 .technologies {
@@ -47,12 +54,20 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 24px;
 }
+.about-hr {
+  margin-bottom: 40px;
+}
 @media screen and (max-width: 600px) {
+  p {
+    font-size: 0.85em;
+  }
   .about-content {
     display: block;
-    /*font-size: 16px;*/
   }
   .about-content-block {
-    margin-bottom: 64px;
+    margin-bottom: 48px;
+  }
+  .about-hr {
+    margin-bottom: 56px;
   }
 }

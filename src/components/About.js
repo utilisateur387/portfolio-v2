@@ -28,13 +28,25 @@ const About = ({ toggleAbout, showAbout }) => {
           I'm an arts and culture enthusiast, especially when it comes to new technologies and immersive experiences. After working as a graphic designer in New York, I joined Le Wagon coding bootcamp to become a web developer and extend my skills in the digital field.
         </p>
 
-        <div className="about-links">
-          Github <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
-          LinkedIn <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
-          Instagram <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
-        </div>
+        <p className="about-links">
+          <span className="link">
+            <a href="/" target="_blank">
+              Github <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
+            </a>
+          </span>
+          <span className="link">
+            <a href="/" target="_blank">
+              LinkedIn <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
+            </a>
+          </span>
+          <span className="link">
+            <a href="/" target="_blank">
+              Instagram <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
+            </a>
+          </span>
+        </p>
 
-        <hr style={{ marginBottom: 32 }}/>
+        <hr className="about-hr" />
 
         <div className="about-content">
           <div className="about-content-block">
