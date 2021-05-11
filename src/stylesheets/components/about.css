@@ -53,6 +53,7 @@
 .about-back {
   font-size: 16px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .about-section-title {
   margin-bottom: 24px;
