@@ -11,9 +11,7 @@
 .categories {
   min-width: 0;
 }
-.description {
 
-}
 .credits {
 
 }
@@ -28,9 +26,6 @@
   margin-bottom: 14px;
   line-height: 2em;
 }
-/*.desktop {
-  display: inline-block;
-}*/
 .mobile {
   display: none;
 }
@@ -47,6 +42,10 @@
   }
   .mobile {
     display: grid;
+  }
+  .description {
+    margin-top: 16px;
+    margin-bottom: 8px;
   }
 }
 

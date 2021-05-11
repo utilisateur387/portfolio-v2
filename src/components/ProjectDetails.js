@@ -48,6 +48,7 @@ const ProjectDetails = () => {
             <img src={coverUrl} alt="Project cover" className='project-cover-img' />
 
             {/* DESKTOP LAYOUT */}
+
             <div className="project-infos desktop">
               <div className="categories">
                 <p className='content-title'>Categories</p>
@@ -78,9 +79,8 @@ const ProjectDetails = () => {
               </div>
             </div>
 
-
             {/* MOBILE LAYOUT */}
-            <div className="description">
+            <div className="description mobile">
               <p className='content-title'>Project information</p>
               {project.full_description}
             </div>
@@ -107,6 +107,7 @@ const ProjectDetails = () => {
                 Motion Motion, Stereolux
               </div>
             </div>
+
           </div>
         </motion.div>
       </>
