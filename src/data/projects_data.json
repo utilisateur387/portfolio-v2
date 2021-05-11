@@ -97,5 +97,32 @@
     "type": "Multimedia installation",
     "date": "2019",
     "id": 11
+  },
+  {
+    "title": "Aether Soundscapes",
+    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "tags": ["identity"],
+    "type": "Visual identity",
+    "date": "2019",
+    "id": 12
+  },
+  {
+    "title": "Superlongevity",
+    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "tags": ["motion", "VJ"],
+    "type": "Visual identity",
+    "date": "2019",
+    "id": 13
+  },
+  {
+    "title": "Ensaama thesis",
+    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "tags": ["editorial"],
+    "type": "Book design",
+    "date": "2019",
+    "id": 14
   }
 ]
