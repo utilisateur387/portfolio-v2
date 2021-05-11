@@ -40,12 +40,12 @@ const About = ({ toggleAbout, showAbout }) => {
           <div>
             <p className="about-section-title">Find me online</p>
             <span className="link nobreak">
-              <a href="/" target="_blank">
+              <a href="https://github.com/utilisateur387/" rel="noreferrer" target="_blank">
                 Github <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
               </a>
             </span>
             <span className="link nobreak">
-              <a href="/" target="_blank">
+              <a href="https://www.linkedin.com/in/utilisateur387/" rel="noreferrer" arget="_blank">
                 LinkedIn <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
               </a>
             </span>
@@ -92,16 +92,16 @@ const About = ({ toggleAbout, showAbout }) => {
             </p>
             <p>
               <span className="uppercase">MA Graphic Design</span><br/>
-              <span className="additional-infos">ENSAAMA Olivier de Serres, Paris, FR</span><br/>
+              <span className="additional-infos">ENSAAMA Olivier de Serres, Paris</span><br/>
               <span className="additional-infos link nobreak">
                 <a rel="noreferrer" href="http://ensaama.net/site/home/diplomes/2018/dsaa-design-graphique/Iyeyemi-Miebi" target="_blank">
-                  View graduation project <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
+                  Graduation project <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
                 </a>
               </span>
             </p>
             <p>
               <span className="uppercase">BA Graphic Design</span><br/>
-              <span className="additional-infos">ESAAT, Roubaix, FR</span>
+              <span className="additional-infos">ESAAT, Roubaix</span>
             </p>
           </div>
 
