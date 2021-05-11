@@ -12,6 +12,9 @@
 .about-links {
   margin-bottom: 48px;
   font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px;
 }
 .link {
   white-space: nowrap;

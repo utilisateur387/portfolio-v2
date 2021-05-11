@@ -28,23 +28,34 @@ const About = ({ toggleAbout, showAbout }) => {
           I'm an arts and culture enthusiast, especially when it comes to new technologies and immersive experiences. After working as a graphic designer in New York, I joined Le Wagon coding bootcamp to become a web developer and extend my skills in the digital field.
         </p>
 
-        <p className="about-links">
-          <span className="link">
+
+        <div className="about-links">
+          <div>
+            <p className="about-section-title">Say hi</p>
             <a href="/" target="_blank">
-              Github <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
+              iyeyemim@gmail.com
             </a>
-          </span>
-          <span className="link">
-            <a href="/" target="_blank">
-              LinkedIn <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
-            </a>
-          </span>
-          <span className="link">
-            <a href="/" target="_blank">
-              Instagram <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
-            </a>
-          </span>
-        </p>
+          </div>
+
+          <div>
+            <p className="about-section-title">Find me online</p>
+            <span className="link">
+              <a href="/" target="_blank">
+                Github <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
+              </a>
+            </span>
+            <span className="link">
+              <a href="/" target="_blank">
+                LinkedIn <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
+              </a>
+            </span>
+            <span className="link">
+              <a href="/" target="_blank">
+                Instagram <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
+              </a>
+            </span>
+          </div>
+        </div>
 
         <hr className="about-hr" />
 
@@ -108,19 +119,18 @@ const About = ({ toggleAbout, showAbout }) => {
                 Ruby on Rails<br/>
                 ES6 Javascript<br/>
                 HTML, CSS<br/>
-                APIs, JSON, scraping<br/>
                 Git, GitHub<br/>
                 SQL, Postgres<br/>
+                Heroku, Clever Cloud<br/>
               </div>
 
               <div>
-                Clever Cloud<br/>
-                Figma, Sketch<br/>
+                Figma<br/>
                 Adobe Creative Suite<br/>
                 Blender 3D<br/>
-                Max/MSP<br/>
+                Resolume<br/>
                 Arduino<br/>
-                Resolume
+                Max/MSP<br/>
               </div>
             </p>
           </div>
