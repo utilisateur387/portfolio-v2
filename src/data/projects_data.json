@@ -73,8 +73,8 @@
   },
   {
     "title": "Uncharted Territories",
-    "short_description": "TK",
-    "full_description": "TK",
+    "short_description": "Mapping installation",
+    "full_description": "Esoteric dream is a group work with artist Loann Dijan. He creates poetic, mysterious yet glaringly fragile objects out of burned and painted polystyrene. This project grew out of the desire to explore a dialogue between our different techniques and mediums, the handmade and the digital, in order to increase the enigma behind the shapes and to generate mystical landscapes.",
     "tags": ["mapping", "video"],
     "type": "Multimedia installation",
     "date": "2018",
@@ -101,7 +101,7 @@
   {
     "title": "Aether Soundscapes",
     "short_description": "TK",
-    "full_description": "TK",
+    "full_description": "Identity and communication of Aether Soundscape, an exhibition which guides the listener through their discovery of ambient music (master’s project). Using the sound wave as a starting point, this identity reflects the unique traits of this genre: a meditative and atmospheric envelope that produces a mindful experience by stopping time, awaking sensorial curiosity and leading to inner introspection.",
     "tags": ["identity"],
     "type": "Visual identity",
     "date": "2018",
@@ -110,7 +110,7 @@
   {
     "title": "Superlongevity",
     "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "full_description": "Visuals and VJ set for Perlon's 20th anniversary at Funkhaus in Berlin. © Double Standards",
     "tags": ["motion", "VJ"],
     "type": "VJ performance",
     "date": "2017",
@@ -119,11 +119,40 @@
   {
     "title": "Ensaama thesis",
     "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "full_description": "Editorial design of ensaama’s master’s thesis collection. Supervised by Yorel Cayla, this work was targeted to the 71 graduate students of ensaama school of art and design in 2017. Group work with Agnès Le Cam and Valentine Priou.",
     "tags": ["editorial"],
     "type": "Book design",
     "date": "2017",
     "id": 14
+  },
+  {
+    "title": "Inside",
+    "short_description": "TK",
+    "full_description": "Click and drag to look around the video. Best with VR headstet. Inside is a virtual reality experience which sets an immersive environment that leads to a moment of escape and interiority. By blurring the lines between the physical and virtual, the real and the imaginary, the abstract shapes that are slowly floating around the user suggest that we change our point of view in order to start looking inward.",
+    "tags": ["VR", "3D"],
+    "type": "Virtual Reality experience",
+    "date": "2017",
+    "id": 15
+  },
+  {
+    "title": "Everpress",
+    "short_description": "TK",
+    "full_description": "While working at Double Standards in Berlin, I was in charge of designing a t-shirt for the 50/50 collection, a campaign coordinated by Everpress in London,  resulting in 50 bespoke, limited edition t-shirts with parts of the proceeds going directly to charity.",
+    "tags": ["print"],
+    "type": "Clothing",
+    "date": "2017",
+    "id": 16
+  },
+  {
+    "title": "Rotate",
+    "short_description": "An app to manage one’s vinyl collection",
+    "full_description": "As the rate of technological advancement increases with time, easier and more pragmatic ways to live and to consume are developed, especially in the field of music. The internet made it effortless to instantly obtain a record from anywhere in the world. But it also led to a decreasing activity for record stores, and eventually the closing of many independent shops. As part of my diploma project in 2016, I decided to promote local vinyl retailers in France by designing Rotate, an app that guides the user through the record stores of their city.",
+    "tags": ["design"],
+    "type": "App",
+    "date": "2016",
+    "id": 17
   }
 ]
+
+
 
