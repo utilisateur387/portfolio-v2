@@ -2,16 +2,17 @@
   {
     "title": "Curators",
     "short_description": "An app to manage and share art collections",
-    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "full_description": "TK",
     "tags": ["development", "UX",  "design"],
     "type": "App",
     "date": "2021",
+    "youtube": "https://youtu.be/7tKfGNHxz2Y?t=1326",
     "id": 1
   },
   {
     "title": "Tune It",
     "short_description": "A market place to rent instruments in one’s area",
-    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "full_description": "TK",
     "tags": ["development", "UX",  "design"],
     "type": "App",
     "date": "2021",
@@ -29,7 +30,7 @@
   {
     "title": "Motion Motion",
     "short_description": "Multimedia performance at Stereolux",
-    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "full_description": "TK",
     "tags": ["motion", "VJ"],
     "type": "Multimedia performance",
     "date": "2020",
@@ -38,7 +39,7 @@
   {
     "title": "Facebook Gaming",
     "short_description": "3D research for Facebook Gaming’s identity",
-    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "full_description": "TK",
     "tags": ["3D", "motion"],
     "type": "3D animation",
     "date": "2019",
@@ -55,16 +56,17 @@
   },
   {
     "title": "Space Choir",
-    "short_description": "TK",
-    "full_description": "As part of my master’s project, the installation Space Choir accompanies the listener into a state of sonic contemplation by giving them the ability to interact with the scenography. Using a Kinect as a capture device and an Arduino, the sound and the LEDs respond to the user’s movement. \nConfronted with the lack of familiarity regarding this particular genre that is ambient music, the listener is invited to engage in it using their body within the surrounding space.",
+    "short_description": "Interactive installation using Arduino and a Kinect",
+    "full_description": "As part of my master’s project, the installation Space Choir accompanies the listener into a state of sonic contemplation by giving them the ability to interact with the scenography. Using a Kinect as a capture device and an Arduino, the sound and the LEDs respond to the user’s movement. \nConfronted with the lack of familiarity regarding this particular genre that is ambient music, the listener is invited to use their body to engage with the installation.",
     "tags": ["installation", "development"],
     "type": "Interactive installation",
     "date": "2018",
+    "vimeo": "296953562",
     "id": 7
   },
   {
     "title": "WS",
-    "short_description": "",
+    "short_description": "3D animation of WS New York’s identity",
     "full_description": "TK",
     "tags": ["3D", "motion"],
     "type": "3D animation",
@@ -75,32 +77,35 @@
     "title": "Uncharted Territories",
     "short_description": "Mapping installation",
     "full_description": "Esoteric dream is a group work with artist Loann Dijan. He creates poetic, mysterious yet glaringly fragile objects out of burned and painted polystyrene. This project grew out of the desire to explore a dialogue between our different techniques and mediums, the handmade and the digital, in order to increase the enigma behind the shapes and to generate mystical landscapes.",
-    "tags": ["mapping", "video"],
+    "tags": ["installation", "mapping"],
     "type": "Multimedia installation",
     "date": "2018",
+    "vimeo": "254813612",
     "id": 9
   },
   {
     "title": "Facebook Design",
-    "short_description": "TK",
+    "short_description": "Virtual reality experience",
     "full_description": "TK",
     "tags": ["VR", "3D"],
     "type": "Virtual reality",
     "date": "2019",
+    "youtube": "https://youtu.be/n-ceGiU6ivk",
     "id": 10
   },
   {
     "title": "Origins",
-    "short_description": "TK",
-    "full_description": "TK",
+    "short_description": "A film on light",
+    "full_description": "Origins is a work on the light which reveals, dazzles and wraps us. The main character–whose identity remains hidden throughout the film–goes on an inner journey and flows between shadow and radiance, managing to reach an introspective state in which questions regarding his own existence and purpose can arise.",
     "tags": ["video"],
     "type": "Video",
     "date": "2016",
+    "vimeo": "123614654",
     "id": 11
   },
   {
     "title": "Aether Soundscapes",
-    "short_description": "TK",
+    "short_description": "Identity for an exhibition on ambient music",
     "full_description": "Identity and communication of Aether Soundscape, an exhibition which guides the listener through their discovery of ambient music (master’s project). Using the sound wave as a starting point, this identity reflects the unique traits of this genre: a meditative and atmospheric envelope that produces a mindful experience by stopping time, awaking sensorial curiosity and leading to inner introspection.",
     "tags": ["identity"],
     "type": "Visual identity",
@@ -109,7 +114,7 @@
   },
   {
     "title": "Superlongevity",
-    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "short_description": "VJ set for Perlon’s 20th anniversary",
     "full_description": "Visuals and VJ set for Perlon's 20th anniversary at Funkhaus in Berlin. © Double Standards",
     "tags": ["motion", "VJ"],
     "type": "VJ performance",
@@ -118,8 +123,8 @@
   },
   {
     "title": "Ensaama thesis",
-    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "full_description": "Editorial design of ensaama’s master’s thesis collection. Supervised by Yorel Cayla, this work was targeted to the 71 graduate students of ensaama school of art and design in 2017. Group work with Agnès Le Cam and Valentine Priou.",
+    "short_description": "Editorial design of the ensaama’s master’s thesis collection.",
+    "full_description": "Editorial design of ensaama’s master’s thesis collection. Overseen by Yorel Cayla, this work was targeted to the 71 graduate students of ensaama school of art and design in 2017. Group work with Agnès Le Cam and Valentine Priou.",
     "tags": ["editorial"],
     "type": "Book design",
     "date": "2017",
@@ -127,16 +132,17 @@
   },
   {
     "title": "Inside",
-    "short_description": "TK",
-    "full_description": "Click and drag to look around the video. Best with VR headstet. Inside is a virtual reality experience which sets an immersive environment that leads to a moment of escape and interiority. By blurring the lines between the physical and virtual, the real and the imaginary, the abstract shapes that are slowly floating around the user suggest that we change our point of view in order to start looking inward.",
+    "short_description": "Virtual reality experience on introspection and ambient music",
+    "full_description": "Click and drag to look around the video. Best with VR headset. Inside is a virtual reality experience which sets an immersive environment that leads to a moment of escape and interiority. By blurring the lines between the physical and virtual, the real and the imaginary, the abstract shapes that are slowly floating around the user suggest that we change our point of view in order to start looking inward.",
     "tags": ["VR", "3D"],
     "type": "Virtual Reality experience",
     "date": "2017",
+    "vimeo": "296369396",
     "id": 15
   },
   {
     "title": "Everpress",
-    "short_description": "TK",
+    "short_description": "Tshirt design for a campaign",
     "full_description": "While working at Double Standards in Berlin, I was in charge of designing a t-shirt for the 50/50 collection, a campaign coordinated by Everpress in London,  resulting in 50 bespoke, limited edition t-shirts with parts of the proceeds going directly to charity.",
     "tags": ["print"],
     "type": "Clothing",
@@ -150,9 +156,8 @@
     "tags": ["design"],
     "type": "App",
     "date": "2016",
+    "vimeo": "167077607",
     "id": 17
   }
 ]
-
-
 
