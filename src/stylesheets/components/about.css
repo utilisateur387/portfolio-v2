@@ -64,10 +64,19 @@
 .additional-infos {
   margin-left: 10px;
 }
+.intro p:first-child {
+  margin-bottom: 0px;
+}
+.intro p:last-child {
+  margin-top: 0.70em;
+}
 
 @media screen and (max-width: 600px) {
   p, a {
-    font-size: 0.85em;
+    font-size: 0.9em;
+  }
+  .intro {
+    font-size: 0.7em;
   }
   .about-content {
     display: block;
@@ -76,7 +85,7 @@
     margin-bottom: 48px;
   }
   .about-hr {
-    margin-bottom: 56px;
+    margin-bottom: 50px;
   }
   .link {
     display: block;
