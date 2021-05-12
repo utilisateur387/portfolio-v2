@@ -26,10 +26,9 @@ const About = ({ toggleAbout, showAbout }) => {
 
         <div className="intro">
           <p>
-            I'm a web developer and digital designer with a deep-seated passion for digital arts and immersive experiences.
+            I'm a web developer and digital designer with a great passion for digital arts and immersive experiences.
             After working as a graphic designer in New York, I enrolled in Le Wagon's fullstack coding bootcamp in France which has provided me with a new sense of technical and creative freedom.
           </p>
-            {/*<br/>*/}
           <p>
             I'm currently working on web development projects, all the while deepening my knowledge of technologies through self-learning.
             Feel free to reach out for a chat, a project, or anything else.

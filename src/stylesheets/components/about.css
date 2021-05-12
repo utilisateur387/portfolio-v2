@@ -63,6 +63,7 @@
 }
 .additional-infos {
   margin-left: 10px;
+  display: inline-block;
 }
 .intro p:first-child {
   margin-bottom: 0px;
