@@ -1,7 +1,7 @@
 [
   {
     "title": "Curators",
-    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "short_description": "An app to manage and share art collections",
     "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
     "tags": ["development", "UX",  "design"],
     "type": "App",
@@ -10,7 +10,7 @@
   },
   {
     "title": "Tune It",
-    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "short_description": "A market place to rent instruments in one’s area",
     "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
     "tags": ["development", "UX",  "design"],
     "type": "App",
@@ -19,8 +19,8 @@
   },
   {
     "title": "Please Mr. Officer",
-    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "short_description": "Digital transcript of George Floyd’s last moments",
+    "full_description": "As part of Right In The Feels web show, I worked on putting together a digital version of the transcript of the events that lead to George Floyd’s death, \"stripped of the trauma porn that fueled the mass sharing of the images online\"",
     "tags": ["development", "design"],
     "type": "Website",
     "date": "2020",
@@ -28,7 +28,7 @@
   },
   {
     "title": "Motion Motion",
-    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "short_description": "Multimedia performance at Stereolux",
     "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
     "tags": ["motion", "VJ"],
     "type": "Multimedia performance",
@@ -37,7 +37,7 @@
   },
   {
     "title": "Facebook Gaming",
-    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "short_description": "3D research for Facebook Gaming’s identity",
     "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
     "tags": ["3D", "motion"],
     "type": "3D animation",
@@ -46,18 +46,17 @@
   },
   {
     "title": "Dreamscape",
-    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "short_description": "Website for a real estate and property development company",
+    "full_description": "...a real estate and property development company with a primary focus on bringing financial and cultural value into their projects. They harness the eclectic energies of builders and dreamers to create a collection of properties that are beacons of who we are today, an where we’re going tomorrow.",
     "tags": ["UX", "design"],
     "type": "Website",
     "date": "2020",
-    "tags": ["UX", "design"],
     "id": 6
   },
   {
     "title": "Space Choir",
-    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "short_description": "TK",
+    "full_description": "As part of my master’s project, the installation Space Choir accompanies the listener into a state of sonic contemplation by giving them the ability to interact with the scenography. Using a Kinect as a capture device and an Arduino, the sound and the LEDs respond to the user’s movement. \nConfronted with the lack of familiarity regarding this particular genre that is ambient music, the listener is invited to engage in it using their body within the surrounding space.",
     "tags": ["installation", "development"],
     "type": "Interactive installation",
     "date": "2018",
@@ -65,8 +64,8 @@
   },
   {
     "title": "WS",
-    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "short_description": "",
+    "full_description": "TK",
     "tags": ["3D", "motion"],
     "type": "3D animation",
     "date": "2019",
@@ -74,8 +73,8 @@
   },
   {
     "title": "Uncharted Territories",
-    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "short_description": "TK",
+    "full_description": "TK",
     "tags": ["mapping", "video"],
     "type": "Multimedia installation",
     "date": "2018",
@@ -83,8 +82,8 @@
   },
   {
     "title": "Facebook Design",
-    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "short_description": "TK",
+    "full_description": "TK",
     "tags": ["VR", "3D"],
     "type": "Virtual reality",
     "date": "2019",
@@ -92,8 +91,8 @@
   },
   {
     "title": "Origins",
-    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "short_description": "TK",
+    "full_description": "TK",
     "tags": ["video"],
     "type": "Video",
     "date": "2016",
@@ -101,8 +100,8 @@
   },
   {
     "title": "Aether Soundscapes",
-    "short_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
-    "full_description": "Elit nibh malesuada scelerisque leo arcu, ut turpis nunc varius. Non feugiat malesuada venenatis in at netus tincidunt. Aliquet tempus nisl.",
+    "short_description": "TK",
+    "full_description": "TK",
     "tags": ["identity"],
     "type": "Visual identity",
     "date": "2018",
@@ -127,5 +126,4 @@
     "id": 14
   }
 ]
-
 
