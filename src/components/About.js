@@ -25,7 +25,11 @@ const About = ({ toggleAbout, showAbout }) => {
         </div>
 
         <p>
-          I'm an arts and culture enthusiast, especially when it comes to new technologies and immersive experiences. After working as a graphic designer in New York, I joined Le Wagon coding bootcamp to become a web developer and extend my skills in the digital field.
+          I'm a web developer and digital designer with a deep-seated passion for digital arts and immersive experiences.
+          After working as a graphic designer in New York, I enrolled in Le Wagon's fullstack coding bootcamp in France which has provided me with a new sense of technical and creative freedom.
+          <br/>
+          I'm currently working on web development projects, all the while deepening my knowledge of technologies through self-learning.
+          Feel free to reach out for a chat, a project, or anything else.
         </p>
 
 
