@@ -1,5 +1,5 @@
 .project-cover-img {
-  height: calc((100vw - 48px) / 3);
+  height: calc((100vw - 48px) / 2.7);
   object-fit: cover;
   border-radius: 4px;
 }
