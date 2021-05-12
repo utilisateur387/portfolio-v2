@@ -107,7 +107,7 @@
     "title": "Aether Soundscapes",
     "short_description": "Identity for an exhibition on ambient music",
     "full_description": "Identity and communication of Aether Soundscape, an exhibition which guides the listener through their discovery of ambient music (master’s project). Using the sound wave as a starting point, this identity reflects the unique traits of this genre: a meditative and atmospheric envelope that produces a mindful experience by stopping time, awaking sensorial curiosity and leading to inner introspection.",
-    "tags": ["identity"],
+    "tags": ["identity", "print"],
     "type": "Visual identity",
     "date": "2018",
     "id": 12
@@ -119,6 +119,7 @@
     "tags": ["motion", "VJ"],
     "type": "VJ performance",
     "date": "2017",
+    "vimeo": "230015745",
     "id": 13
   },
   {
