@@ -2,7 +2,7 @@
   {
     "title": "Curators",
     "short_description": "An app to manage and share art collections",
-    "full_description": "TK",
+    "full_description": "Curators is an app for arts and culture enthusiasts that allows them to manage and share their collections. Whether it is during a visit at a museum or from the comfort of our home, the app lets us upload a picture of an artwork, scan the text on its cartel and retrieve related information. The idea behind this project came as I felt overwhelmed by the amount of photos in my phone gallery, not being able to easily access artworks I’ve liked and felt inspired by. This app is also a means to learn and discover art through the community.",
     "tags": ["development", "UX",  "design"],
     "type": "App",
     "date": "2021",
@@ -12,7 +12,7 @@
   {
     "title": "Tune It",
     "short_description": "A market place to rent instruments in one’s area",
-    "full_description": "TK",
+    "full_description": "Tune It is a marketplace to rent instrument’s in our local area. Just as one would book a place to stay on AirBnb or rent a car for a day, Tune it makes it possible to try new instruments easily without the cost and the engagement that comes with buying an instrument.",
     "tags": ["development", "UX",  "design"],
     "type": "App",
     "date": "2021",
@@ -21,19 +21,20 @@
   {
     "title": "Please Mr. Officer",
     "short_description": "Digital transcript of George Floyd’s last moments",
-    "full_description": "As part of Right In The Feels web show, I worked on putting together a digital version of the transcript of the events that lead to George Floyd’s death, \"stripped of the trauma porn that fueled the mass sharing of the images online\"",
+    "full_description": "As part of Right In The Feels web show, I put together a digital version of the transcript of the events that lead to George Floyd’s death, \"stripped of the trauma porn that fueled the mass sharing of the images online\"",
     "tags": ["development", "design"],
     "type": "Website",
     "date": "2020",
     "id": 3
   },
   {
-    "title": "Motion Motion",
+    "title": "Motion Colab",
     "short_description": "Multimedia performance at Stereolux",
     "full_description": "TK",
     "tags": ["motion", "VJ"],
     "type": "Multimedia performance",
     "date": "2020",
+    "youtube": "https://youtu.be/mhRJyYCnm1A",
     "id": 4
   },
   {
@@ -67,7 +68,7 @@
   {
     "title": "WS",
     "short_description": "3D animation of WS New York’s identity",
-    "full_description": "TK",
+    "full_description": "WS New York is a food and wine focused private membership club located in Hudson Yards. Building on the elegant visual identity created by Base Design, this 3D motion piece illustrates the coming to life of the brand.",
     "tags": ["3D", "motion"],
     "type": "3D animation",
     "date": "2019",
@@ -76,7 +77,7 @@
   {
     "title": "Uncharted Territories",
     "short_description": "Mapping installation",
-    "full_description": "Esoteric dream is a group work with artist Loann Dijan. He creates poetic, mysterious yet glaringly fragile objects out of burned and painted polystyrene. This project grew out of the desire to explore a dialogue between our different techniques and mediums, the handmade and the digital, in order to increase the enigma behind the shapes and to generate mystical landscapes.",
+    "full_description": "Uncharted Territories is a collective work with artist Loann Dijan. He creates poetic, mysterious yet glaringly fragile objects out of burned and painted polystyrene. This project grew out of the desire to explore a dialogue between our different techniques and mediums, the handmade and the digital, in order to increase the enigma behind the shapes and to generate mystical landscapes.",
     "tags": ["installation", "mapping"],
     "type": "Multimedia installation",
     "date": "2018",
@@ -86,7 +87,7 @@
   {
     "title": "Facebook Design",
     "short_description": "Virtual reality experience",
-    "full_description": "TK",
+    "full_description": "This project did not go through. Building on visual research for Facebook Design’s identity from my peers at Base Design, I explored the possibilities of a virtual reality experience to convey the creative and innovative characteristics of the company.",
     "tags": ["VR", "3D"],
     "type": "Virtual reality",
     "date": "2019",
