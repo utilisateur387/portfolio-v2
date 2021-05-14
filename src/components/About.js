@@ -52,15 +52,15 @@ const About = ({ toggleAbout, showAbout }) => {
               </a>
             </span>
             <span className="link nobreak">
-              <a href="https://www.linkedin.com/in/utilisateur387/" rel="noreferrer" arget="_blank">
+              <a href="https://www.linkedin.com/in/utilisateur387/" rel="noreferrer" target="_blank">
                 LinkedIn <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
               </a>
             </span>
-            <span className="link nobreak">
+{/*            <span className="link nobreak">
               <a href="/" target="_blank">
                 Instagram <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
               </a>
-            </span>
+            </span>*/}
           </div>
         </div>
 

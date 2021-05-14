@@ -40,7 +40,7 @@
   {
     "title": "Facebook Gaming",
     "short_description": "3D research for Facebook Gaming’s identity",
-    "full_description": "TK",
+    "full_description": "Facebook Gaming is a platform designed to compete with all of the big names in livestreaming. It hosts home to a lot of streamers and influencers, while also allowing normal users to start livestreams and showcase their gameplay. With a team of designers at Base Design, we imagined an identity that would be representative of the diverse opportunities offered by this platform.",
     "tags": ["3D", "motion"],
     "type": "3D animation",
     "date": "2019",
@@ -49,7 +49,7 @@
   {
     "title": "Dreamscape",
     "short_description": "Website for a real estate and property development company",
-    "full_description": "...a real estate and property development company with a primary focus on bringing financial and cultural value into their projects. They harness the eclectic energies of builders and dreamers to create a collection of properties that are beacons of who we are today, an where we’re going tomorrow.",
+    "full_description": "Dreamscape is a real estate and property development company with a primary focus on bringing financial and cultural value into their projects. They harness the eclectic energies of builders and dreamers to create a collection of properties that are beacons of who we are today, an where we’re going tomorrow.",
     "tags": ["UX", "design"],
     "type": "Website",
     "date": "2020",
@@ -162,4 +162,3 @@
     "id": 17
   }
 ]
-
