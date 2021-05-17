@@ -123,7 +123,7 @@ const About = ({ toggleAbout, showAbout }) => {
 
           <div className="about-content-block">
             <p className="about-section-title">
-              Technologies I enjoy using
+              Technologies / Tools
             </p>
             <p className="technologies">
               <div>
