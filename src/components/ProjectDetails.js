@@ -109,9 +109,13 @@ const ProjectDetails = () => {
 
             {/* MAIN CONTENT */}
             { project.vimeo &&
-              <div class="top">
+              <div class="wrapper-video">
                 <iframe src={`https://player.vimeo.com/video/${project.vimeo}?title=0&byline=0&portrait=0&transparent=0&autoplay=1`} width="640" height="480" frameborder="0" title={project.title} webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-ready="true"></iframe>
               </div>
+            }
+            { project.youtube &&
+              <div class="wrapper-video">
+              <iframe width="640" height="480" src={`https://www.youtube.com/embed/${project.youtube}?controls=0`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              </div>
             }
 
           </div>

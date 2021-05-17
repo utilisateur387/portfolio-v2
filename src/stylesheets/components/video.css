@@ -1,5 +1,6 @@
-.top {
+.wrapper-video {
   padding-bottom: 56.25%;
+  margin-top: 48px;
   height: 0;
   overflow: hidden;
   position: relative;
