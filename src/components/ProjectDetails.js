@@ -25,7 +25,10 @@ const ProjectDetails = () => {
 
   return (
       <>
-        <p className="btn" onClick={handleBack}>
+        <p
+          className="btn"
+          onClick={handleBack}
+          style={{ zIndex: 100 }}>
           <img src="images/general/arrow_left.png" alt="" className="arrow-back" />
           Back to index
         </p>
