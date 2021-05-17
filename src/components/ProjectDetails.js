@@ -126,11 +126,21 @@ const ProjectDetails = () => {
                   {project.tags.map(tag => <span className="tag tag-details-page" key={tag}>{`${tag} `}</span>)}
                 </div>
 
-                { project.livesite &&
+               { (project.livesite || project.github) &&
                   <div className="project-links">
                     <p className='content-title'>Links</p>
-                      <a href={project.livesite} target="_blank" rel="noreferrer">Livesite</a> <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
-                      <a href={project.github} target="_blank" rel="noreferrer">Github</a> <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
+
+                    { project.livesite &&
+                      <span className="link nobreak">
+                        <a href={project.livesite} target="_blank" rel="noreferrer">Livesite</a> <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
+                      </span>
+                    }
+
+                    { project.github &&
+                      <span className="link nobreak">
+                        <a href={project.github} target="_blank" rel="noreferrer">Github</a> <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
+                      </span>
+                    }
                   </div>
                 }
               </div>
