@@ -48,7 +48,6 @@ const ProjectDetails = () => {
             <img src={coverUrl} alt="Project cover" className='project-cover-img' />
 
             {/* DESKTOP LAYOUT */}
-
             <div className="project-infos desktop">
               <div className="categories">
                 <p className='content-title'>Categories</p>
@@ -107,6 +106,13 @@ const ProjectDetails = () => {
                 Motion Motion, Stereolux
               </div>
             </div>
+
+            {/* MAIN CONTENT */}
+            { project.vimeo &&
+              <div class="top">
+                <iframe src={`https://player.vimeo.com/video/${project.vimeo}?title=0&byline=0&portrait=0&transparent=0&autoplay=1`} width="640" height="480" frameborder="0" title={project.title} webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-ready="true"></iframe>
+              </div>
+            }
 
           </div>
         </motion.div>

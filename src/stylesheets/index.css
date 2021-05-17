@@ -4,6 +4,7 @@
 @import "./components/headline";
 @import "./components/navbar";
 @import "./components/project_details";
+@import "./components/video";
 @import "./config/fonts";
 @import "./config/font_settings";
 
