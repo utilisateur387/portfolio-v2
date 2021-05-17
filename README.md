@@ -1,5 +1,4 @@
-## 📒 Portfolio 
+### Portfolio 
 
-I'm using React to dynamically load all project related data.  
-*Coming soon!*
+I'm using React to build my porfolio and load all project related data dynamically.  
 
