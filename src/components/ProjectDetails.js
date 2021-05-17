@@ -87,6 +87,14 @@ const ProjectDetails = () => {
               <div className="credits">
                 <p className='content-title'>Credits</p>
 
+                { project.tools &&
+                  <div>
+                    Tools:<br/>
+                    {project.tools.map(person => <span>{person}<br/></span>)}
+                    <br/>
+                  </div>
+                }
+
                 { project.team &&
                   <div>
                     Team:<br/>
@@ -95,10 +103,10 @@ const ProjectDetails = () => {
                   </div>
                 }
 
-                { project.tools &&
+                { project.music &&
                   <div>
-                    Tools:<br/>
-                    {project.tools.map(person => <span>{person}<br/></span>)}
+                    Music:<br/>
+                    {project.music}
                   </div>
                 }
 
@@ -129,16 +137,30 @@ const ProjectDetails = () => {
 
               <div className="credits">
                 <p className='content-title'>Credits</p>
-                Team: 
-                <br/>
-                Louise Michelle Duigou <br/>
-                Ambre Lemaitre <br/>
-                Maxime Lorem<br/>
-                <br/>
-                Fonts: <br/>
-                Lorem Ipsum<br/>
-                <br/>
-                Motion Motion, Stereolux
+
+                { project.tools &&
+                  <div>
+                    Tools:<br/>
+                    {project.tools.map(person => <span>{person}<br/></span>)}
+                    <br/>
+                  </div>
+                }
+
+                { project.team &&
+                  <div>
+                    Team:<br/>
+                    {project.team.map(person => <span>{person}<br/></span>)}
+                    <br/>
+                  </div>
+                }
+
+                { project.music &&
+                  <div>
+                    Music:<br/>
+                    {project.music}
+                  </div>
+                }
+
               </div>
             </div>
 

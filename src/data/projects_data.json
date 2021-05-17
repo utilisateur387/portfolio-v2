@@ -10,7 +10,7 @@
     "livesite": "http://curators.gallery",
     "github": "https://github.com/utilisateur387/curators",
     "team": ["Thomas Visset", "François-Xavier Paris", "Hippolyte Teffaud"],
-    "tools": ["Ruby on Rails"],
+    "tools": ["Ruby on Rails", "OCR Google Vision", "SQL"],
     "id": 1
   },
   {
@@ -23,6 +23,7 @@
     "livesite": "https://tune-it.herokuapp.com/",
     "github": "https://github.com/utilisateur387/tuneit",
     "team": ["Thomas Visset", "François-Xavier Paris", "Hippolyte Teffaud"],
+    "tools": ["Ruby on Rails", "SQL"],
     "id": 2
   },
   {
@@ -45,6 +46,7 @@
     "date": "2020",
     "vimeo": "551600533",
     "team": ["Louise Duigou", "Ambre Lemaitre", "Elise Berton", "Maxime Corblin"],
+    "tools": ["Resolume", "After Effects"],
     "id": 4
   },
   {
@@ -55,6 +57,7 @@
     "type": "3D animation",
     "date": "2019",
     "team": ["Base Design"],
+    "tools": ["Blender"],
     "id": 5
   },
   {
@@ -77,6 +80,8 @@
     "date": "2018",
     "vimeo": "296953562",
     "team": ["Base Design"],
+    "tools": ["Arduino", "Kinect", "Max/MSP"],
+    "music": ["Laraaji"],
     "id": 7
   },
   {
@@ -88,6 +93,7 @@
     "date": "2019",
     "vimeo": "551625311",
     "team": ["Base Design"],
+    "tools": ["Blender"],
     "id": 8
   },
   {
@@ -99,6 +105,8 @@
     "date": "2018",
     "vimeo": "254813612",
     "team": ["Loann Dijan"],
+    "tools": ["Resolume", "MadMapper"],
+    "music": ["William Basinski"],
     "id": 9
   },
   {
@@ -110,6 +118,7 @@
     "date": "2019",
     "youtube": "n-ceGiU6ivk",
     "team": ["Base Design"],
+    "tools": ["Blender"],
     "id": 10
   },
   {
@@ -121,6 +130,7 @@
     "date": "2016",
     "vimeo": "123614654",
     "team": ["Bastien Forato"],
+    "music": ["Murcof"],
     "id": 11
   },
   {
@@ -141,6 +151,8 @@
     "date": "2017",
     "vimeo": "230015745",
     "team": ["Double Standards"],
+    "tools": ["Resolume"],
+    "music": ["Perlon"],
     "id": 13
   },
   {
@@ -161,6 +173,8 @@
     "type": "Virtual Reality experience",
     "date": "2017",
     "vimeo": "296369396",
+    "tools": ["Blender"],
+    "music": ["Ryuichi Sakamoto"],
     "id": 15
   },
   {
@@ -170,6 +184,7 @@
     "tags": ["print"],
     "type": "Clothing",
     "date": "2017",
+    "team": ["Double Standards"],
     "id": 16
   },
   {
