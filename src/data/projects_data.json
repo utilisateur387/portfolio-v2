@@ -9,6 +9,7 @@
     "youtube": "7tKfGNHxz2Y?t=1327",
     "livesite": "http://curators.gallery",
     "github": "https://github.com/utilisateur387/curators",
+    "team": ["Thomas Visset", "François-Xavier Paris", "Hippolyte Teffaud"],
     "id": 1
   },
   {
@@ -20,6 +21,7 @@
     "date": "2021",
     "livesite": "https://tune-it.herokuapp.com/",
     "github": "https://github.com/utilisateur387/tuneit",
+    "team": ["Thomas Visset", "François-Xavier Paris", "Hippolyte Teffaud"],
     "id": 2
   },
   {
@@ -41,6 +43,7 @@
     "type": "Multimedia performance",
     "date": "2020",
     "vimeo": "551600533",
+    "team": ["Louise Duigou", "Ambre Lemaitre", "Elise Berton", "Maxime Corblin"],
     "id": 4
   },
   {
@@ -50,6 +53,7 @@
     "tags": ["3D", "motion"],
     "type": "3D animation",
     "date": "2019",
+    "team": ["Base Design"],
     "id": 5
   },
   {
@@ -70,6 +74,7 @@
     "type": "Interactive installation",
     "date": "2018",
     "vimeo": "296953562",
+    "team": ["Base Design"],
     "id": 7
   },
   {
@@ -90,6 +95,7 @@
     "type": "Multimedia installation",
     "date": "2018",
     "vimeo": "254813612",
+    "team": ["Loann Dijan"],
     "id": 9
   },
   {
@@ -100,6 +106,7 @@
     "type": "Virtual reality",
     "date": "2019",
     "youtube": "n-ceGiU6ivk",
+    "team": ["Base Design"],
     "id": 10
   },
   {
@@ -110,6 +117,7 @@
     "type": "Video",
     "date": "2016",
     "vimeo": "123614654",
+    "team": ["Bastien Forato"],
     "id": 11
   },
   {
@@ -129,6 +137,7 @@
     "type": "VJ performance",
     "date": "2017",
     "vimeo": "230015745",
+    "team": ["Double Standards"],
     "id": 13
   },
   {
@@ -138,6 +147,7 @@
     "tags": ["editorial"],
     "type": "Book design",
     "date": "2017",
+    "team": ["Agnès Le Cam", "Valentine Priou"],
     "id": 14
   },
   {
