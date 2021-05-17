@@ -86,16 +86,22 @@ const ProjectDetails = () => {
 
               <div className="credits">
                 <p className='content-title'>Credits</p>
-                Team: 
-                <br/>
-                Louise Michelle Duigou <br/>
-                Ambre Lemaitre <br/>
-                Maxime Lorem<br/>
-                <br/>
-                Fonts: <br/>
-                Lorem Ipsum<br/>
-                <br/>
-                Motion Motion, Stereolux
+
+                { project.team &&
+                  <div>
+                    Team:<br/>
+                    {project.team.map(person => <span>{person}<br/></span>)}
+                    <br/>
+                  </div>
+                }
+
+                { project.tools &&
+                  <div>
+                    Tools:<br/>
+                    {project.tools.map(person => <span>{person}<br/></span>)}
+                  </div>
+                }
+
               </div>
             </div>
 

@@ -10,6 +10,7 @@
     "livesite": "http://curators.gallery",
     "github": "https://github.com/utilisateur387/curators",
     "team": ["Thomas Visset", "François-Xavier Paris", "Hippolyte Teffaud"],
+    "tools": ["Ruby on Rails"],
     "id": 1
   },
   {
@@ -64,6 +65,7 @@
     "type": "Website",
     "date": "2020",
     "livesite": "https://www.dreamscapecos.com/",
+    "team": ["Base Design"],
     "id": 6
   },
   {
@@ -85,6 +87,7 @@
     "type": "3D animation",
     "date": "2019",
     "vimeo": "551625311",
+    "team": ["Base Design"],
     "id": 8
   },
   {
