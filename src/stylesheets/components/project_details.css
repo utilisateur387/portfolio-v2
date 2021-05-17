@@ -29,6 +29,9 @@
 .mobile {
   display: none;
 }
+.project-links {
+  margin-top: 40px;
+}
 
 @media screen and (max-width: 780px) {
   .project-cover-img {

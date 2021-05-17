@@ -7,15 +7,19 @@
     "type": "App",
     "date": "2021",
     "youtube": "7tKfGNHxz2Y?t=1327",
+    "livesite": "http://curators.gallery",
+    "github": "https://github.com/utilisateur387/curators",
     "id": 1
   },
   {
     "title": "Tune It",
     "short_description": "A market place to rent instruments in one’s area",
-    "full_description": "Tune It is a marketplace to rent instrument’s in our local area. Just as one would book a place to stay on AirBnb or rent a car for a day, Tune it makes it possible to try new instruments easily without the cost and the engagement that comes with buying an instrument.",
+    "full_description": "Tune It is a marketplace to rent instruments in a local area. Just as one would book a place to stay on AirBnb or rent a car for a day, Tune it makes it possible to try new instruments easily without the cost and the engagement that comes with buying an instrument.",
     "tags": ["development", "UX",  "design"],
     "type": "App",
     "date": "2021",
+    "livesite": "https://tune-it.herokuapp.com/",
+    "github": "https://github.com/utilisateur387/tuneit",
     "id": 2
   },
   {
@@ -25,6 +29,8 @@
     "tags": ["development", "design"],
     "type": "Website",
     "date": "2020",
+    "livesite": "http://pleasemrofficer.site/",
+    "github": "https://github.com/utilisateur387/pleasemrofficer",
     "id": 3
   },
   {
@@ -34,7 +40,7 @@
     "tags": ["motion", "VJ"],
     "type": "Multimedia performance",
     "date": "2020",
-    "youtube": "mhRJyYCnm1A",
+    "vimeo": "551600533",
     "id": 4
   },
   {
@@ -53,6 +59,7 @@
     "tags": ["UX", "design"],
     "type": "Website",
     "date": "2020",
+    "livesite": "https://www.dreamscapecos.com/",
     "id": 6
   },
   {
@@ -72,6 +79,7 @@
     "tags": ["3D", "motion"],
     "type": "3D animation",
     "date": "2019",
+    "vimeo": "551625311",
     "id": 8
   },
   {
