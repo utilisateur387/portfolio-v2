@@ -72,6 +72,10 @@ const About = ({ toggleAbout, showAbout }) => {
               Experience
             </p>
             <p>
+              <span className="uppercase">C-monetiquette, Bordeaux</span><br/>
+              <span className="additional-infos">Web Developer</span>
+            </p>
+            <p>
               <span className="uppercase">Base Design, NYC</span><br/>
               <span className="additional-infos">Digital Designer</span>
             </p>
@@ -128,6 +132,7 @@ const About = ({ toggleAbout, showAbout }) => {
             <p className="technologies">
               <div>
                 ReactJS<br/>
+                PHP<br/>
                 Ruby on Rails<br/>
                 ES6 Javascript<br/>
                 HTML, CSS<br/>
