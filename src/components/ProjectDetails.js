@@ -17,11 +17,24 @@ const ProjectDetails = () => {
     .replaceAll('.', '')
   }/cover_image.jpg`;
 
+  const imgsFolder = `images/${project.title
+    .toLowerCase()
+    .replaceAll(' ', '_')
+    .replaceAll('.', '')
+  }`;
+
   const history = useHistory();
   const handleBack = () => {
     history.go(-1);
     // history.push('/#filters');
   }
+
+  const images = [...Array(project.img_count + 1)].map((e, i) =>
+    <div class="project-images-container">
+      <img src={`${imgsFolder}/asset0${i}.jpg`} alt=""/>
+    </div>
+  )
+
 
   return (
       <>
@@ -64,7 +77,7 @@ const ProjectDetails = () => {
 
                     { project.livesite &&
                       <span className="link nobreak">
-                        <a href={project.livesite} target="_blank" rel="noreferrer">Livesite</a> <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
+                        <a href={project.livesite} target="_blank" rel="noreferrer">Online</a> <img src="images/general/arrow_slanted.png" className="arrow-slanted" alt="arrow" />
                       </span>
                     }
 
@@ -175,15 +188,36 @@ const ProjectDetails = () => {
             </div>
 
             {/* MAIN CONTENT */}
+            { project.gif_count > 0 &&
+              <div class="project-images-container">
+                <img src={`${imgsFolder}/gif01.gif`} alt=""/>
+              </div>
+            }
             { project.vimeo &&
               <div class="wrapper-video">
                 <iframe src={`https://player.vimeo.com/video/${project.vimeo}?title=0&byline=0&portrait=0&transparent=0&autoplay=1`} width="640" height="480" frameborder="0" title={project.title} webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-ready="true"></iframe>
               </div>
             }
+            {images}
+{/*            {
+              project.img_count > 0 &&
+              <div class="project-images-container">
+                <img src={`${imgsFolder}/asset01.jpg`} alt=""/>
+              </div>
+            }*/}
+
             { project.youtube &&
               <div class="wrapper-video">
               <iframe width="640" height="480" src={`https://www.youtube.com/embed/${project.youtube}?controls=0`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              </div>
             }
+            { project.local_video &&
+              <div class="project-video-container">
+                <video width="auto" height="auto" controls>
+                  <source src={`${imgsFolder}/video01.mp4`} type="video/mp4"/>
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+             }
 
           </div>
         </motion.div>

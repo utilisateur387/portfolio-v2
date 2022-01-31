@@ -32,6 +32,25 @@
 .project-links {
   margin-top: 40px;
 }
+.project-images-container {
+  width: 100%;
+  text-align: center;
+}
+.project-video-container {
+  width: 100%;
+  text-align: center;
+}
+.project-images-container img {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+video {
+  width: 100%;
+  height: auto;
+  margin-top: 32px;
+  max-width: 900px;
+}
 
 @media screen and (max-width: 780px) {
   .project-cover-img {
@@ -49,6 +68,9 @@
   .description {
     margin-top: 16px;
     margin-bottom: 8px;
+  }
+  .project-images-container img {
+    margin-bottom: 16px;
   }
 }
 

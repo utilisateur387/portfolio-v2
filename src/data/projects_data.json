@@ -1,5 +1,17 @@
 [
   {
+    "title": "Dreamscape",
+    "short_description": "Website for a real estate and property development company",
+    "full_description": "Dreamscape is a real estate and property development company with a primary focus on bringing financial and cultural value into their projects. They harness the eclectic energies of builders and dreamers to create a collection of properties that are beacons of who we are today, an where we’re going tomorrow.",
+    "tags": ["UX", "design"],
+    "type": "Website",
+    "date": "2020",
+    "livesite": "https://www.dreamscapecos.com/",
+    "team": ["Base Design"],
+    "img_count": 0,
+    "local_video": 1,
+    "id": 6
+  }, {
     "title": "Curators",
     "short_description": "An app to manage and share art collections",
     "full_description": "Curators is an app for arts and culture enthusiasts that allows them to manage and share their collections. Whether it is during a visit at a museum or from the comfort of our home, the app lets us upload a picture of an artwork, scan the text on its cartel and retrieve related information. The idea behind this project came as I felt overwhelmed by the amount of photos in my phone gallery, not being able to easily access artworks I’ve liked and felt inspired by. This app is also a means to learn and discover art through the community.",
@@ -7,24 +19,85 @@
     "type": "App",
     "date": "2021",
     "youtube": "7tKfGNHxz2Y?t=1327",
-    "livesite": "http://curators.gallery",
     "github": "https://github.com/utilisateur387/curators",
     "team": ["Thomas Visset", "François-Xavier Paris", "Hippolyte Teffaud"],
     "tools": ["Ruby on Rails", "OCR Google Vision", "SQL"],
+    "img_count": 1,
     "id": 1
   },
   {
     "title": "Tune It",
-    "short_description": "A market place to rent instruments in one’s area",
-    "full_description": "Tune It is a marketplace to rent instruments in a local area. Just as one would book a place to stay on AirBnb or rent a car for a day, Tune it makes it possible to try new instruments easily without the cost and the engagement that comes with buying an instrument.",
+    "short_description": "A market place to rent instruments in your area",
+    "full_description": "Tune It is a marketplace to rent musical instruments in a local area. Just as one would book a place to stay on AirBnb or rent a car for a day, Tune it makes it possible to try new instruments easily without the cost and the engagement that comes with buying an instrument.",
     "tags": ["coding", "UX",  "design"],
     "type": "App",
     "date": "2021",
-    "livesite": "https://tune-it.herokuapp.com/",
     "github": "https://github.com/utilisateur387/tuneit",
     "team": ["Thomas Visset", "François-Xavier Paris", "Hippolyte Teffaud"],
     "tools": ["Ruby on Rails", "SQL"],
+    "img_count": 1,
     "id": 2
+  },
+  {
+    "title": "Facebook Gaming",
+    "short_description": "3D research for Facebook Gaming’s identity",
+    "full_description": "Facebook Gaming is a platform designed to compete with all of the big names in livestreaming. It hosts home to a lot of streamers and influencers, while also allowing normal users to start livestreams and showcase their gameplay. With a team of designers at Base Design, we imagined an identity that would be representative of the diverse opportunities offered by this platform.",
+    "tags": ["3D", "motion"],
+    "type": "3D animation",
+    "date": "2019",
+    "vimeo": "551674499",
+    "team": ["Base Design"],
+    "tools": ["Blender"],
+    "img_count": 0,
+    "id": 5
+  },
+  {
+    "title": "WS",
+    "short_description": "3D animation of WS New York’s identity",
+    "full_description": "WS New York is a food and wine focused private membership club located in Hudson Yards. Building on the elegant visual identity created by Base Design, this 3D motion piece illustrates the coming to life of the brand.",
+    "tags": ["3D", "motion"],
+    "type": "3D animation",
+    "date": "2019",
+    "vimeo": "551625311",
+    "team": ["Base Design"],
+    "tools": ["Blender"],
+    "img_count": 0,
+    "id": 8
+  },
+  {
+    "title": "Aether Soundscapes",
+    "short_description": "Identity for an exhibition on ambient music",
+    "full_description": "Identity and communication of Aether Soundscape, an exhibition which guides the listener through their discovery of ambient music (master’s project). Using the sound wave as a starting point, this identity reflects the unique traits of this genre: a meditative and atmospheric envelope that produces a mindful experience by stopping time, awaking sensorial curiosity and leading to inner introspection.",
+    "tags": ["identity", "print"],
+    "type": "Visual identity",
+    "date": "2018",
+    "img_count": 6,
+    "id": 12
+  },
+  {
+    "title": "Facebook Design",
+    "short_description": "Virtual reality experience",
+    "full_description": "This project did not go through. Facebook Design is a global resource for all things design, with specialized focus on Facebook apps and technologies. Building on visual research for Facebook Design’s identity from my peers at Base Design, I explored the possibilities of a virtual reality experience to convey the creative and innovative characteristics of the company.",
+    "tags": ["VR", "3D"],
+    "type": "Virtual reality",
+    "date": "2019",
+    "youtube": "n-ceGiU6ivk",
+    "team": ["Base Design"],
+    "tools": ["Blender"],
+    "img_count": 0,
+    "id": 10
+  },
+  {
+    "title": "Ensaama thesis",
+    "short_description": "Editorial design of the ensaama’s master’s thesis collection.",
+    "full_description": "Editorial design of ensaama’s master’s thesis collection. Overseen by Yorel Cayla, this work was targeted to the 71 graduate students of ensaama school of art and design in 2017. Group work with Agnès Le Cam and Valentine Priou.",
+    "tags": ["editorial"],
+    "type": "Book design",
+    "date": "2017",
+    "team": ["Agnès Le Cam", "Valentine Priou"],
+    "img_count": 4,
+    "gif_count": 1,
+    "id": 14
   },
   {
     "title": "Please Mr. Officer",
@@ -33,8 +106,9 @@
     "tags": ["coding", "design"],
     "type": "Website",
     "date": "2020",
-    "livesite": "http://pleasemrofficer.site/",
     "github": "https://github.com/utilisateur387/pleasemrofficer",
+    "img_count": 0,
+    "local_video": 1,
     "id": 3
   },
   {
@@ -47,30 +121,8 @@
     "vimeo": "551600533",
     "team": ["Louise Duigou", "Ambre Lemaitre", "Elise Berton", "Maxime Corblin"],
     "tools": ["Resolume", "After Effects"],
+    "img_count": 0,
     "id": 4
-  },
-  {
-    "title": "Facebook Gaming",
-    "short_description": "3D research for Facebook Gaming’s identity",
-    "full_description": "Facebook Gaming is a platform designed to compete with all of the big names in livestreaming. It hosts home to a lot of streamers and influencers, while also allowing normal users to start livestreams and showcase their gameplay. With a team of designers at Base Design, we imagined an identity that would be representative of the diverse opportunities offered by this platform.",
-    "tags": ["3D", "motion"],
-    "type": "3D animation",
-    "date": "2019",
-    "vimeo": "551674499",
-    "team": ["Base Design"],
-    "tools": ["Blender"],
-    "id": 5
-  },
-  {
-    "title": "Dreamscape",
-    "short_description": "Website for a real estate and property development company",
-    "full_description": "Dreamscape is a real estate and property development company with a primary focus on bringing financial and cultural value into their projects. They harness the eclectic energies of builders and dreamers to create a collection of properties that are beacons of who we are today, an where we’re going tomorrow.",
-    "tags": ["UX", "design"],
-    "type": "Website",
-    "date": "2020",
-    "livesite": "https://www.dreamscapecos.com/",
-    "team": ["Base Design"],
-    "id": 6
   },
   {
     "title": "Space Choir",
@@ -83,19 +135,8 @@
     "team": ["Base Design"],
     "tools": ["Arduino", "Kinect", "Max/MSP"],
     "music": ["Laraaji"],
+    "img_count": 0,
     "id": 7
-  },
-  {
-    "title": "WS",
-    "short_description": "3D animation of WS New York’s identity",
-    "full_description": "WS New York is a food and wine focused private membership club located in Hudson Yards. Building on the elegant visual identity created by Base Design, this 3D motion piece illustrates the coming to life of the brand.",
-    "tags": ["3D", "motion"],
-    "type": "3D animation",
-    "date": "2019",
-    "vimeo": "551625311",
-    "team": ["Base Design"],
-    "tools": ["Blender"],
-    "id": 8
   },
   {
     "title": "Uncharted Territories",
@@ -108,19 +149,8 @@
     "team": ["Loann Dijan"],
     "tools": ["Resolume", "MadMapper"],
     "music": ["William Basinski"],
+    "img_count": 4,
     "id": 9
-  },
-  {
-    "title": "Facebook Design",
-    "short_description": "Virtual reality experience",
-    "full_description": "This project did not go through. Facebook Design is a global resource for all things design, with specialized focus on Facebook apps and technologies. Building on visual research for Facebook Design’s identity from my peers at Base Design, I explored the possibilities of a virtual reality experience to convey the creative and innovative characteristics of the company.",
-    "tags": ["VR", "3D"],
-    "type": "Virtual reality",
-    "date": "2019",
-    "youtube": "n-ceGiU6ivk",
-    "team": ["Base Design"],
-    "tools": ["Blender"],
-    "id": 10
   },
   {
     "title": "Origins",
@@ -132,16 +162,8 @@
     "vimeo": "123614654",
     "team": ["Bastien Forato"],
     "music": ["Murcof"],
+    "img_count": 0,
     "id": 11
-  },
-  {
-    "title": "Aether Soundscapes",
-    "short_description": "Identity for an exhibition on ambient music",
-    "full_description": "Identity and communication of Aether Soundscape, an exhibition which guides the listener through their discovery of ambient music (master’s project). Using the sound wave as a starting point, this identity reflects the unique traits of this genre: a meditative and atmospheric envelope that produces a mindful experience by stopping time, awaking sensorial curiosity and leading to inner introspection.",
-    "tags": ["identity", "print"],
-    "type": "Visual identity",
-    "date": "2018",
-    "id": 12
   },
   {
     "title": "Superlongevity",
@@ -154,17 +176,8 @@
     "team": ["Double Standards"],
     "tools": ["Resolume"],
     "music": ["Perlon"],
+    "img_count": 0,
     "id": 13
-  },
-  {
-    "title": "Ensaama thesis",
-    "short_description": "Editorial design of the ensaama’s master’s thesis collection.",
-    "full_description": "Editorial design of ensaama’s master’s thesis collection. Overseen by Yorel Cayla, this work was targeted to the 71 graduate students of ensaama school of art and design in 2017. Group work with Agnès Le Cam and Valentine Priou.",
-    "tags": ["editorial"],
-    "type": "Book design",
-    "date": "2017",
-    "team": ["Agnès Le Cam", "Valentine Priou"],
-    "id": 14
   },
   {
     "title": "Inside",
@@ -176,26 +189,30 @@
     "vimeo": "296369396",
     "tools": ["Blender"],
     "music": ["Ryuichi Sakamoto"],
+    "img_count": 1,
     "id": 15
   },
   {
     "title": "Everpress",
-    "short_description": "Tshirt design for a campaign",
+    "short_description": "T-shirt design for a campaign",
     "full_description": "While working at Double Standards in Berlin, I was in charge of designing a t-shirt for the 50/50 collection, a campaign coordinated by Everpress in London,  resulting in 50 bespoke, limited edition t-shirts with parts of the proceeds going directly to charity.",
     "tags": ["print"],
     "type": "Clothing",
     "date": "2017",
     "team": ["Double Standards"],
+    "img_count": 0,
+    "gif_count": 1,
     "id": 16
   },
   {
     "title": "Rotate",
-    "short_description": "An app to manage one’s vinyl collection",
+    "short_description": "An app to manage personal vinyl collections",
     "full_description": "As the rate of technological advancement increases with time, easier and more pragmatic ways to live and to consume are developed, especially in the field of music. The internet made it effortless to instantly obtain a record from anywhere in the world. But it also led to a decreasing activity for record stores, and eventually the closing of many independent shops. As part of my diploma project in 2016, I decided to promote local vinyl retailers in France by designing Rotate, an app that guides the user through the record stores of their city.",
     "tags": ["design"],
     "type": "App",
     "date": "2016",
     "vimeo": "167077607",
+    "img_count": 1,
     "id": 17
   }
 ]
