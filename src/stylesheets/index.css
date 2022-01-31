@@ -1,6 +1,7 @@
 @import "./components/about";
 @import "./components/card";
 @import "./components/filters";
+@import "./components/footer";
 @import "./components/headline";
 @import "./components/navbar";
 @import "./components/project_details";

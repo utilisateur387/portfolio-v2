@@ -1,5 +1,6 @@
 import Home from './components/Home';
 import About from './components/About';
+import Footer from './components/Footer';
 import ProjectDetails from './components/ProjectDetails';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -20,6 +21,7 @@ function App() {
             <ProjectDetails />
           </Route>
         </Switch>
+        <Footer/>
       </div>
     </Router>
   );

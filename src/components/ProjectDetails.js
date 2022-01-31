@@ -212,7 +212,7 @@ const ProjectDetails = () => {
             }
             { project.local_video &&
               <div class="project-video-container">
-                <video width="auto" height="auto" controls>
+                <video width="auto" height="auto" autoplay="autoplay">
                   <source src={`${imgsFolder}/video01.mp4`} type="video/mp4"/>
                   Your browser does not support the video tag.
                 </video>
