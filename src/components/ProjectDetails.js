@@ -29,9 +29,9 @@ const ProjectDetails = () => {
     // history.push('/#filters');
   }
 
-  const images = [...Array(project.img_count + 1)].map((e, i) =>
+  const images = [...Array(project.img_count)].map((e, i) =>
     <div class="project-images-container">
-      <img src={`${imgsFolder}/asset0${i}.jpg`} alt=""/>
+      <img src={`${imgsFolder}/asset0${i + 1}.jpg`} alt=""/>
     </div>
   )
 
