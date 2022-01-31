@@ -17,7 +17,7 @@ const Headline = () => {
     >
       <motion.p
         className="headline-content">
-        Hi, I’m Miebi, a web developer and digital designer currently based in France
+        Hi, I’m Miebi, a web developer and digital designer based in France
       </motion.p>
 
       <motion.div

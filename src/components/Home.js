@@ -23,8 +23,6 @@ const Home = () => {
   const [tagCount, setTagCount] = useState(0); // Track number of active tags
 
   const toggleFilters = (tag) => {
-    console.log(tag);
-
     if (activeFilters.includes(tag)) {
       setActiveFilters(prev => {
         return prev.filter(current => current !== tag)
@@ -53,7 +51,7 @@ const Home = () => {
   return (
     <div
       className="body"
-      style={{ overflowY: 'hidden'}}>
+      style={{ overflowY: 'hidden' }}>
     {/*<div style={{ overflowY: showAbout ? 'hidden' : 'auto' }}>*/}
       <Headline/>
       <NavButtons
