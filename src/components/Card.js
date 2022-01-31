@@ -18,18 +18,30 @@ const Card = ({ project }) => {
         className="card-top-infos"
         style={{ opacity: inView ? 1 : 0, transition: 'opacity 0.4s' }}
         >
-        <p className="uppercase">{project.title}</p>
+        <p className="uppercase">
+          {project.title}
+          { project.coming_soon && <span style={{ textTransform: "lowercase"}}> – <i>coming soon!</i></span> }
+        </p>
         <div className="tags-container">
           {project.tags.map(tag => <span className="tag" key={tag}>{tag}</span>)}
         </div>
       </div>
-      <Link to={`/${project.id}`}>
+
+      { !project.coming_soon && <Link to={`/${project.id}`}>
         <div
           className="img-container"
           style={{ opacity: inView ? 1 : 0, transition: 'opacity 1s', transitionDelay: '50ms'}}>
           <img src={coverUrl} alt="" />
         </div>
-      </Link>
+      </Link> }
+
+      { project.coming_soon &&
+        <div
+          className="img-container"
+          style={{ opacity: inView ? 1 : 0, transition: 'opacity 1s', transitionDelay: '50ms'}}>
+          <img src={coverUrl} alt="" />
+        </div>
+       }
     </div>
   )
 }
