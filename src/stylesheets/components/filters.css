@@ -21,7 +21,7 @@
   position: fixed;
   top: 20px;
   left: 24px;
-  background: blue;
+  background: #0f0fcf;
   margin-right: 8px;
   z-index: 400;
   color: white;
@@ -42,7 +42,7 @@
   top: 20px;
   left: 140px;
   display: inline-block;
-  background: blue;
+  background: #0f0fcf;
   color: white;
   padding: 8px 12px;
   border-radius: 10px;
@@ -51,7 +51,7 @@
 }
 .tag-active {
   background: white;
-  color: blue;
+  color: #0f0fcf;
 }
 .cross {
   display: none;

@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      © Miebi • 2022
+      © Miebi • 2023
     </footer>
   )
 }

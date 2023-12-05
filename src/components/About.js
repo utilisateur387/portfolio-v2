@@ -26,11 +26,8 @@ const About = ({ toggleAbout, showAbout }) => {
 
         <div className="intro">
           <p>
-            I'm a web developer and digital designer with a great passion for digital arts and immersive experiences.
-            After working as a graphic designer in New York, I enrolled in Le Wagon's fullstack coding bootcamp in France which has provided me with a new sense of technical and creative freedom.
-          </p>
+            I'm a web developer and digital designer deeply passionate about digital arts and crafting immersive experiences. Originally from France, I worked as a graphic designer in New York before returning home to complete Le Wagon's full-stack coding bootcamp in Nantes. After gaining experience as a fullstack developer in a company, I now freelance, blending my skills in design and development to craft captivating digital experiences.          </p>
           <p>
-            I'm currently working on web development projects, all the while deepening my knowledge of technologies through self-learning.
             Feel free to reach out for a chat, a project, or anything else.
           </p>
         </div>
@@ -40,7 +37,7 @@ const About = ({ toggleAbout, showAbout }) => {
           <div>
             <p className="about-section-title">Say hi</p>
             <a href="/" target="_blank">
-              iyeyemim @ gmail.com
+              iyeyemim [at] gmail.com
             </a>
           </div>
 
